@@ -1,0 +1,5 @@
+{
+  "electrical_nets_unchanged": true,
+  "net_count": 309,
+  "scope": "Compares exact reference/pin membership for every net before and after symbol-type and source-flag annotations; excludes power-only symbols."
+}

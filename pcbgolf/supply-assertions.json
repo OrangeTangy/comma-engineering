@@ -1,0 +1,33 @@
+{
+  "assertions": [
+    {
+      "net": "+5V",
+      "source": "U2 switching output through L2"
+    },
+    {
+      "net": "+3V3",
+      "source": "U1 switching output through L1"
+    },
+    {
+      "net": "+12V",
+      "source": "external DC jack through reverse-protection Q1"
+    },
+    {
+      "net": "GND",
+      "source": "external DC jack return"
+    },
+    {
+      "net": "VDDA",
+      "source": "3.3 V through ferrite L3"
+    },
+    {
+      "net": "VBUS",
+      "source": "external USB host VBUS"
+    },
+    {
+      "net": "J1.PWR1",
+      "source": "external DC jack input at J1.PWR1"
+    }
+  ],
+  "scope": "Documents schematic supply paths only. Does not certify voltage, current, power sequencing, copper or hardware function."
+}

@@ -1,0 +1,1259 @@
+{
+  "final_rules": {
+    "STM32H725ZGTx": {
+      "15": "power_out"
+    },
+    "comma.ai_11112255_TPS25942": {
+      "4": "power_out",
+      "5": "passive",
+      "6": "passive",
+      "7": "passive",
+      "8": "passive"
+    },
+    "comma.ai_11112255_USB-C-FEMALEGCT": {
+      "*": "passive"
+    },
+    "comma.ai_11112255_USB-C-FEMALE": {
+      "*": "passive"
+    },
+    "comma.ai_11112255_CRYSTAL-4PIN4-PIN": {
+      "*": "passive"
+    },
+    "comma.ai_11112255_CREE-RGB-CLMVC": {
+      "*": "passive"
+    },
+    "comma.ai_11112255_USB2517": {
+      "19": "input",
+      "25": "power_out",
+      "62": "power_out"
+    },
+    "comma.ai_11112255_MCP2542FDT-E/MNY": {
+      "5": "power_in"
+    }
+  },
+  "changes": [
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A9",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B1T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B2T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B3T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B4T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B5T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B6T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B7T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B8T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B9",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B9T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B10T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B11T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B12T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "19",
+      "from_type": "bidirectional",
+      "to_type": "input"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "25",
+      "from_type": "power_in",
+      "to_type": "power_out"
+    },
+    {
+      "file": "pcbgolf_3.kicad_sch",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "62",
+      "from_type": "power_in",
+      "to_type": "power_out"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S13",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_5.kicad_sch",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S14",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_2.kicad_sch",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf_4.kicad_sch",
+      "symbol": "comma.ai_11112255_MCP2542FDT-E/MNY",
+      "pin": "5",
+      "from_type": "bidirectional",
+      "to_type": "power_in"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "A12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "B12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S13",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALEGCT",
+      "pin": "S14",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A9",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "A12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B1T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B2T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B3T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B4T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B5",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B5T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B6",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B6T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B7",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B7T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B8",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B8T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B9",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B9T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B10",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B10T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B11",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B11T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B12",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "B12T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S1TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S2TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S3TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4B",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4T",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB-C-FEMALE",
+      "pin": "S4TH",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CRYSTAL-4PIN4-PIN",
+      "pin": "4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U1",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U2",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U3",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_CREE-RGB-CLMVC",
+      "pin": "U4",
+      "from_type": "bidirectional",
+      "to_type": "passive"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "19",
+      "from_type": "bidirectional",
+      "to_type": "input"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "25",
+      "from_type": "power_in",
+      "to_type": "power_out"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_USB2517",
+      "pin": "62",
+      "from_type": "power_in",
+      "to_type": "power_out"
+    },
+    {
+      "file": "pcbgolf.kicad_sym",
+      "symbol": "comma.ai_11112255_MCP2542FDT-E/MNY",
+      "pin": "5",
+      "from_type": "bidirectional",
+      "to_type": "power_in"
+    }
+  ],
+  "sources": [
+    "https://www.st.com/resource/en/datasheet/stm32h725ve.pdf",
+    "https://www.ti.com/lit/gpn/TPS25942A"
+  ],
+  "rationale": "VLXSMPS is the internal converter switching output; TPS25942 OUT pins are the switched supply output. Pin 4 represents the driver; internally common pins 5-8 are passive to avoid falsely modeling five independent supplies. Electrical-type annotation only; does not certify circuit function."
+}
