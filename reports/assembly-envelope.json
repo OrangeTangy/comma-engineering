@@ -1,0 +1,18 @@
+{
+  "bounds_mm": [
+    0.0,
+    -60.0,
+    0.0,
+    70.0,
+    0.0,
+    12.595000099999998
+  ],
+  "dimensions_mm": [
+    70.0,
+    60.0,
+    12.595000099999998
+  ],
+  "volume_mm3": 52899.00041999999,
+  "status": "UNROUTED_ASSEMBLY_ENVELOPE_ONLY",
+  "validated_score": null
+}

@@ -1,0 +1,5 @@
+*.step -diff linguist-generated=true
+*.wrl -diff linguist-generated=true
+*.kicad_sym linguist-vendored=true
+*.kicad_mod linguist-vendored=true
+reports/* linguist-generated=true

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T14:05:41",
+    "ignored_checks": [
+        {
+            "description": "Input Power pin not driven by any Output Power pins",
+            "key": "power_pin_not_driven"
+        },
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Symbol pin or wire end off connection grid",
+            "key": "endpoint_off_grid"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/36babed2-fa72-4c2d-95d5-945abadc668e",
+            "violations": []
+        }
+    ],
+    "source": "pcbgolf.kicad_sch"
+}

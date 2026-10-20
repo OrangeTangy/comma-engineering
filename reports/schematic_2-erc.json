@@ -1,0 +1,2304 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T14:05:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5ce5ae11-0353-48de-90d0-85969444e2e6",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #GND018 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.2159,
+                                "y": 0.889
+                            },
+                            "uuid": "ce665167-eec6-498c-9247-38263fcfad04"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.6096
+                            },
+                            "uuid": "dd4c262b-4253-4b91-932e-0edac1c1a336"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 15 [VLXSMPS, Power input, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.5334
+                            },
+                            "uuid": "27984edc-7b06-4de6-a430-bb6fe180acfe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 68 [VCAP, Power output, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.6764
+                            },
+                            "uuid": "1c28cb6c-f496-4430-adb3-428e063501eb"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 103 [VCAP, Power output, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.7018
+                            },
+                            "uuid": "950a4aff-2383-4a60-8edd-50653ea0f7b7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 103 [VCAP, Power output, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.7018
+                            },
+                            "uuid": "950a4aff-2383-4a60-8edd-50653ea0f7b7"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 140 [VCAP, Power output, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.7272
+                            },
+                            "uuid": "9a38a98f-3ebe-4ed8-8d3f-0123e487449a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 36 [VDDA, Power input, Line]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.3302
+                            },
+                            "uuid": "d4f58792-4601-4d0b-abb6-b7a117c871c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.2159,
+                                "y": 0.8382
+                            },
+                            "uuid": "06b3ff9b-7a27-47b9-ae53-81f6b7a6fcec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.2159,
+                                "y": 0.8382
+                            },
+                            "uuid": "06b3ff9b-7a27-47b9-ae53-81f6b7a6fcec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND018 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.2159,
+                                "y": 0.9144
+                            },
+                            "uuid": "7395c486-48e6-4ca7-8e20-82cd2a74b82c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND019 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 0.4826
+                            },
+                            "uuid": "abfc0cdc-bf96-4e7d-ab58-2746b84a5109"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [comma.ai_11112255_CRYSTAL-4PIN4-PIN]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 0.762
+                            },
+                            "uuid": "6ec154f6-d6a7-4359-a327-a4dadeeccf73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [comma.ai_11112255_CRYSTAL-4PIN4-PIN]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 0.762
+                            },
+                            "uuid": "6ec154f6-d6a7-4359-a327-a4dadeeccf73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND020 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 0.9144
+                            },
+                            "uuid": "827a4b49-a1ad-4637-932c-8326029dc3f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 1.8034
+                            },
+                            "uuid": "bb491b0f-9862-4cc1-9664-82600d09c9e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 1.8034
+                            },
+                            "uuid": "bb491b0f-9862-4cc1-9664-82600d09c9e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND021 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 1.8796
+                            },
+                            "uuid": "e76cfafe-ac47-49d3-9d34-246b7bc04c04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 [+3V3]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.6096
+                            },
+                            "uuid": "7397e9b7-e3cc-491a-8e52-6d58062660fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R11 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 0.6096
+                            },
+                            "uuid": "f22b4508-7e5c-4c45-9fc8-c03730ee26d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R11 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 0.6096
+                            },
+                            "uuid": "f22b4508-7e5c-4c45-9fc8-c03730ee26d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.4826
+                            },
+                            "uuid": "e8fe68e3-ae85-4724-aeb7-445cb754973f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.4826
+                            },
+                            "uuid": "e8fe68e3-ae85-4724-aeb7-445cb754973f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU2'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.0414
+                            },
+                            "uuid": "c443cbe4-ce9a-47df-8106-9db0c65a04ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU2'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.0668
+                            },
+                            "uuid": "14b305f6-cd51-44e0-bd63-d72869b0646b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU1'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.0922
+                            },
+                            "uuid": "743a4bb3-5cc9-44f0-8eea-10e40cc33ebc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU1'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.1176
+                            },
+                            "uuid": "174a5557-ac87-4ab7-96fb-28a6420017a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_IMON'",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.143
+                            },
+                            "uuid": "40093424-61e6-45ce-8a6e-7c8709587cf1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.8034
+                            },
+                            "uuid": "c7256d2d-a487-4b0a-bbcb-0b88032ff09f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.8034
+                            },
+                            "uuid": "c7256d2d-a487-4b0a-bbcb-0b88032ff09f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND022 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.8796
+                            },
+                            "uuid": "91120af3-3b84-41b4-b839-2b85a5ea43b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C17 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.8382
+                            },
+                            "uuid": "f80a0caf-d4cf-41c5-be7b-0dfadee38647"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C17 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.8382
+                            },
+                            "uuid": "f80a0caf-d4cf-41c5-be7b-0dfadee38647"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND023 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.9144
+                            },
+                            "uuid": "0048662f-e4c8-46f2-bd0a-69f7fb160982"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0414
+                            },
+                            "uuid": "7ac47bb7-de73-48af-a603-8b8a87d47403"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0414
+                            },
+                            "uuid": "7ac47bb7-de73-48af-a603-8b8a87d47403"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R14 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0668
+                            },
+                            "uuid": "b049e571-6615-4353-90cd-88f67c76884f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R14 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0668
+                            },
+                            "uuid": "b049e571-6615-4353-90cd-88f67c76884f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R15 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0922
+                            },
+                            "uuid": "83e68df3-37f2-474e-9625-89eed8a55f0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R15 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0922
+                            },
+                            "uuid": "83e68df3-37f2-474e-9625-89eed8a55f0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R16 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.1176
+                            },
+                            "uuid": "e4e63906-79a0-4595-a318-c33be98b31fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R16 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.1176
+                            },
+                            "uuid": "e4e63906-79a0-4595-a318-c33be98b31fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C18 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.8034
+                            },
+                            "uuid": "97cd38d2-c541-4978-b5ef-095974646237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C18 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.8034
+                            },
+                            "uuid": "97cd38d2-c541-4978-b5ef-095974646237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND024 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.8796
+                            },
+                            "uuid": "be432dd7-a277-4755-b8e7-a3ce33742450"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN2_TX'",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 0.8382
+                            },
+                            "uuid": "5e6e9bcd-13c7-40b1-ab40-2c309372b5e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN2_RX'",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 0.8636
+                            },
+                            "uuid": "b3e53533-08d6-4d88-acd7-b693a14f7f62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU2_IGN'",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 1.2446
+                            },
+                            "uuid": "140ead7b-1d03-4221-9f9d-1806abf00203"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU2_RELAY'",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 1.27
+                            },
+                            "uuid": "044608a4-a0e6-4b10-8267-d002bcd592d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 [+3V3]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.2794
+                            },
+                            "uuid": "4ff063f7-317c-486a-a685-ce2922926b2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [STM32H725ZGTx]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.27
+                            },
+                            "uuid": "199532da-f141-4622-bc55-1b2e7f2d8cc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [STM32H725ZGTx]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.27
+                            },
+                            "uuid": "199532da-f141-4622-bc55-1b2e7f2d8cc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND025 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 2.286
+                            },
+                            "uuid": "47442e60-64b3-40bd-a48a-6ce3c196aef5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 [+3V3]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 0.2794
+                            },
+                            "uuid": "729ab1c6-e099-4eb8-a28a-41cf9160cf06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_PWR_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.4318
+                            },
+                            "uuid": "e22fcccf-bb6d-4a6e-bad7-633ebf06a29e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_PWR_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.4572
+                            },
+                            "uuid": "64473517-afa9-4623-b9a0-f557aee89cb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_PWR_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5334
+                            },
+                            "uuid": "d04c6ba7-d325-40b3-8f47-80502987faaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_PWR_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5588
+                            },
+                            "uuid": "20ff8ee1-543f-4df2-bd36-b4c9df398422"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_IMON'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5842
+                            },
+                            "uuid": "28538738-5e91-4fce-94e7-b144b599ee9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'STM_D_N'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.7112
+                            },
+                            "uuid": "4420365e-8212-4e51-8908-66886a7e978e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'STM_D_P'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.7366
+                            },
+                            "uuid": "5dad09b4-fff6-4515-8c5b-9c3d5de64c8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_IMON'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.889
+                            },
+                            "uuid": "9abe697a-0b0d-4a73-bd48-3d433de637f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN1_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.9398
+                            },
+                            "uuid": "9f9429b4-028d-4eef-9bc5-7d33d59b1348"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN3_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.9652
+                            },
+                            "uuid": "1b273179-6d80-41cf-8854-47a915417614"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN1_RX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.9906
+                            },
+                            "uuid": "da4dc780-7ad8-4cf3-8270-96a3fcab63b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN1_TX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.016
+                            },
+                            "uuid": "31681725-65b1-4608-abe4-09776ffe748d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN0_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.0414
+                            },
+                            "uuid": "1338ae09-b9a6-478b-bb53-1d1e56a68bd4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN0_RX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.0668
+                            },
+                            "uuid": "3d36afa2-a569-4f10-89d5-988906e267a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN0_TX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.0922
+                            },
+                            "uuid": "df506443-3654-4c96-be61-58c4abf56b1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'HUB_SCL'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.1176
+                            },
+                            "uuid": "7ea4a828-a303-4e5e-8303-13d04c90aba7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'HUB_SDA'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.143
+                            },
+                            "uuid": "65dd52ec-1384-4512-89f7-54931a277a3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN3_RX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.1684
+                            },
+                            "uuid": "eaad643f-2b78-4dd5-bce6-ddd4fe148ee4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN3_TX'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.1938
+                            },
+                            "uuid": "5aa1b133-bfe2-4f53-8a4e-daf4d8598003"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_IMON'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.397
+                            },
+                            "uuid": "cf92999c-8986-46ff-8903-2bca955541a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_D0'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.4986
+                            },
+                            "uuid": "70cb125d-4d6c-4656-950d-cf659da660b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_D1'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.524
+                            },
+                            "uuid": "60bf5523-3d6f-42c9-8f4a-e99ca3023fa2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_D2'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.5494
+                            },
+                            "uuid": "1ee0bff1-b743-4ca9-a59e-e853c4698256"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_D3'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.5748
+                            },
+                            "uuid": "3226efb1-aae6-484d-b997-d639f36e5a32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_CLK'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.6002
+                            },
+                            "uuid": "a40addc1-629e-4277-82e5-2f76c16d1795"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU1_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.7272
+                            },
+                            "uuid": "02c1374b-3777-424d-88c1-f62615ef1944"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU1_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.7526
+                            },
+                            "uuid": "15ef0215-8ca7-406a-8b23-87e862643576"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SD_CMD'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.778
+                            },
+                            "uuid": "54fddc7f-a7c9-4048-adc2-37fcede0212e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU2_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.8034
+                            },
+                            "uuid": "be59ecd5-94c7-45cc-88fd-61ed9c8e8a1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU2_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.8288
+                            },
+                            "uuid": "ca1d064b-a644-4719-943a-9e35d2d4b8c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU1_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.8542
+                            },
+                            "uuid": "0de12656-432e-4a32-85c0-1ce10c1fdf29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU1_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.8796
+                            },
+                            "uuid": "db7e2943-65f3-4e55-ba86-1e2976c964aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CAN2_EN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.905
+                            },
+                            "uuid": "652fd9c1-ea0d-4710-821b-4dffdf1ebb26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU2_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.9304
+                            },
+                            "uuid": "33e2982c-54ed-472b-9954-6ea81a7c2e5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU2_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.9558
+                            },
+                            "uuid": "066b26fa-4ef7-4fab-88c8-d2155a81a84b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_SBU2_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 1.9812
+                            },
+                            "uuid": "2eddbc72-cb48-4828-95cc-f54b684d7c65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU1_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 2.0066
+                            },
+                            "uuid": "76c8ffa7-5da9-4d12-bcb6-2ade05697127"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU1_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 2.032
+                            },
+                            "uuid": "2408b3ec-b05e-403f-8489-997ff5eda933"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU2_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 2.0574
+                            },
+                            "uuid": "35a0c177-3534-4a84-88c4-42bbfe234f7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU1_IGN'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 2.0828
+                            },
+                            "uuid": "a0086d7e-adc4-4bd7-843a-137906795b40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_SBU1_RELAY'",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 2.1082
+                            },
+                            "uuid": "bd43fae6-8350-42f8-80d5-115e0d924611"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R17 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.2954
+                            },
+                            "uuid": "6f00ebe1-6f01-48ce-8b4d-a0b5c8e77783"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R17 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.2954
+                            },
+                            "uuid": "6f00ebe1-6f01-48ce-8b4d-a0b5c8e77783"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R18 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3208
+                            },
+                            "uuid": "b8f01435-248a-4e20-8420-0a4c5bd9f61d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R18 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3208
+                            },
+                            "uuid": "b8f01435-248a-4e20-8420-0a4c5bd9f61d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R19 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3462
+                            },
+                            "uuid": "3f101d08-06c6-4676-b4fe-d090621bf166"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R19 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3462
+                            },
+                            "uuid": "3f101d08-06c6-4676-b4fe-d090621bf166"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R20 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3716
+                            },
+                            "uuid": "7eb5eb04-28b3-4f62-a183-aab94b9928a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R20 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3716
+                            },
+                            "uuid": "7eb5eb04-28b3-4f62-a183-aab94b9928a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU1'",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.2954
+                            },
+                            "uuid": "d96842a6-18df-4975-b56d-463aab4660fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_SBU2'",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.3208
+                            },
+                            "uuid": "0cd25ca6-c8b0-4d77-a1c5-58fb8ee53550"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU1'",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.3462
+                            },
+                            "uuid": "514dcd83-14cd-4851-979f-b3ae5f10288b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_SBU2'",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.3716
+                            },
+                            "uuid": "f0554c3f-d782-486a-931a-18799cbbe6d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR08 [+3V3]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.3048
+                            },
+                            "uuid": "e3484fe9-19f9-4fcb-8be5-f7fbe3aef808"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C19 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.4064
+                            },
+                            "uuid": "42bf5088-dfec-4aee-bfda-6b728213ef2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C19 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.4064
+                            },
+                            "uuid": "42bf5088-dfec-4aee-bfda-6b728213ef2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND026 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.4826
+                            },
+                            "uuid": "17281a12-cf19-4d12-be35-25b8afc1fb9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR09 [+3V3]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.6223
+                            },
+                            "uuid": "03830c92-54ea-4fd9-b0e8-9639be1d077a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol L3 [comma.ai_11112255_L-US-L2]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.6477
+                            },
+                            "uuid": "42a2a787-7f28-4871-84a2-86b39529875c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol L3 [comma.ai_11112255_L-US-L2]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.6477
+                            },
+                            "uuid": "42a2a787-7f28-4871-84a2-86b39529875c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C20 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4064
+                            },
+                            "uuid": "844feaaf-fb4d-4883-9672-decd43249326"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C20 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4064
+                            },
+                            "uuid": "844feaaf-fb4d-4883-9672-decd43249326"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND027 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4826
+                            },
+                            "uuid": "8ea479ef-5505-4f50-898a-dff27bdc5618"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C21 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.9906
+                            },
+                            "uuid": "1762ba0a-930d-4bd6-9010-e1c05a6638d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C21 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.9906
+                            },
+                            "uuid": "1762ba0a-930d-4bd6-9010-e1c05a6638d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND028 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 1.0668
+                            },
+                            "uuid": "49aa54f0-840e-40c4-834f-5a95e791c48f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R21 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 1.7526
+                            },
+                            "uuid": "fd7a8d66-ce96-472f-a0be-af31826bd4ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R21 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 1.7526
+                            },
+                            "uuid": "fd7a8d66-ce96-472f-a0be-af31826bd4ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.7239
+                            },
+                            "uuid": "a63277c8-02c3-4eb8-928b-c41cceaa6811"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.7239
+                            },
+                            "uuid": "a63277c8-02c3-4eb8-928b-c41cceaa6811"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND029 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.8001
+                            },
+                            "uuid": "d23656bc-ee5e-47d0-b915-918290413228"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C23 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.4064
+                            },
+                            "uuid": "d45fc977-189e-49da-b6e8-3b95a0e7fa41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C23 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.4064
+                            },
+                            "uuid": "d45fc977-189e-49da-b6e8-3b95a0e7fa41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND030 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.4826
+                            },
+                            "uuid": "e1f0b91b-4248-4bb3-aec8-f63ef096f342"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR010 [+3V3]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.8542
+                            },
+                            "uuid": "8ae108da-8f1e-442d-bdb7-eaa11625365a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol L4 [comma.ai_11112255_L-US-0806]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.9144
+                            },
+                            "uuid": "9e091ca1-eb28-44ad-b933-4add5739bd65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol L4 [comma.ai_11112255_L-US-0806]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.9144
+                            },
+                            "uuid": "9e091ca1-eb28-44ad-b933-4add5739bd65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C24 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.4064
+                            },
+                            "uuid": "4fe53aae-03b1-4e75-b850-a1a45d534872"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C24 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.4064
+                            },
+                            "uuid": "4fe53aae-03b1-4e75-b850-a1a45d534872"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND031 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.4826
+                            },
+                            "uuid": "f7b50442-9efb-4a63-943f-5a4b6522c706"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.9906
+                            },
+                            "uuid": "655d7288-9401-4bca-804f-752a5144fe64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.9906
+                            },
+                            "uuid": "655d7288-9401-4bca-804f-752a5144fe64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND032 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 1.0668
+                            },
+                            "uuid": "c5168b79-9376-4e74-a348-dcb77633d6ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 [+3V3]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 1.3843
+                            },
+                            "uuid": "8353266e-f10c-4b7d-83c3-2b2f32f3cacd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [comma.ai_11112255_SPST-2-4PIN]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 1.4859
+                            },
+                            "uuid": "1e7de66f-c29c-475c-afc0-066bf9f94609"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [comma.ai_11112255_SPST-2-4PIN]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 1.4859
+                            },
+                            "uuid": "1e7de66f-c29c-475c-afc0-066bf9f94609"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [comma.ai_11112255_CREE-RGB-CLMVC]",
+                            "pos": {
+                                "x": 2.413,
+                                "y": 1.8034
+                            },
+                            "uuid": "01ad6567-9fc9-4f29-aaf2-4bac1fd231a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [comma.ai_11112255_CREE-RGB-CLMVC]",
+                            "pos": {
+                                "x": 2.413,
+                                "y": 1.8034
+                            },
+                            "uuid": "01ad6567-9fc9-4f29-aaf2-4bac1fd231a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C26 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 0.4064
+                            },
+                            "uuid": "37facf12-aebb-44b0-aa1e-a8931da96fa2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C26 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 0.4064
+                            },
+                            "uuid": "37facf12-aebb-44b0-aa1e-a8931da96fa2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND033 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 0.4826
+                            },
+                            "uuid": "4171cf8f-cb10-4fcc-b249-d194f55b599e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4064
+                            },
+                            "uuid": "a84c57b9-36d4-41f7-9937-a5ca7f0c7406"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [comma.ai_11112255_C0402]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4064
+                            },
+                            "uuid": "a84c57b9-36d4-41f7-9937-a5ca7f0c7406"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND034 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4826
+                            },
+                            "uuid": "32f630e4-4dd4-4329-9cb6-75d6a71479c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R22 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.7526
+                            },
+                            "uuid": "71e6c378-2837-4539-ad35-ecc96a9f7d32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R22 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.7526
+                            },
+                            "uuid": "71e6c378-2837-4539-ad35-ecc96a9f7d32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R23 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.8542
+                            },
+                            "uuid": "7b85f618-bccf-42f6-9b88-42ccd657eefb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R23 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.8542
+                            },
+                            "uuid": "7b85f618-bccf-42f6-9b88-42ccd657eefb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "pcbgolf_2.kicad_sch"
+}

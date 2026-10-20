@@ -1,0 +1,280 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T14:07:50",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Symbol pin or wire end off connection grid",
+            "key": "endpoint_off_grid"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e/a80ea996-501f-5f4f-9c63-688935d8aad3",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 1.1176
+                            },
+                            "uuid": "a4910e41-0586-4e66-a934-d587caac57b9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #GND01 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 1.397
+                            },
+                            "uuid": "479b6e52-3ada-47ec-b2e1-3627062fcf38"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin PWR1 [PWR, Power input, Line]",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 0.4064
+                            },
+                            "uuid": "2c5c5999-0514-42a7-b8b5-ab39ff01d3e6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 0.381
+                            },
+                            "uuid": "752b5d3d-d544-4845-af51-5bbfb3d6a196"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 1.1176
+                            },
+                            "uuid": "b29038e3-9362-4828-ab91-bb337a2fb35f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Microcontroller/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e/41c21c20-8064-585a-b9ee-5f2b4f17ca18",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 15 [VLXSMPS, Power input, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.5334
+                            },
+                            "uuid": "27984edc-7b06-4de6-a430-bb6fe180acfe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 36 [VDDA, Power input, Line]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.3302
+                            },
+                            "uuid": "d4f58792-4601-4d0b-abb6-b7a117c871c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/USB_SD/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e/a8f1ed75-b2f3-5da5-83c5-9b1bbf40ad73",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.4318
+                            },
+                            "uuid": "7bafcea3-79f2-4e10-9346-cd4e9b1b83fc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 25 [VDD18, Power input, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.5334
+                            },
+                            "uuid": "48d16e6c-9b47-438a-a846-b8eb454e6733"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 62 [VDD18PLL, Power input, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.5588
+                            },
+                            "uuid": "76217f4a-a64f-4c07-ae7a-7f890a46c17a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/CAN/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e/4d047723-11e3-58bf-8f64-2d6d1dbcc8d9",
+            "violations": []
+        },
+        {
+            "path": "/Ports/",
+            "uuid_path": "/d9c9eec8-949d-5484-9bbd-1fdc8b18436e/ead71ae2-b1d5-56c0-8459-808f8ea6329b",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U13 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.3175
+                            },
+                            "uuid": "c1d095ff-de01-4715-af34-80f238138f9c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.8509
+                            },
+                            "uuid": "3ef5e214-04b6-45c8-a249-02765e43cd9d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.3843
+                            },
+                            "uuid": "38c96a32-5aab-447d-81ef-6cdf7c6f0309"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.9177
+                            },
+                            "uuid": "f3de36b4-085e-476a-a649-97c87809339f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        }
+    ],
+    "source": "pcbgolf.kicad_sch"
+}

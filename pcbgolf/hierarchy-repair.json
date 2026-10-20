@@ -1,0 +1,28 @@
+{
+  "root_uuid": "d9c9eec8-949d-5484-9bbd-1fdc8b18436e",
+  "sheets": [
+    [
+      "Power",
+      "power.kicad_sch"
+    ],
+    [
+      "Microcontroller",
+      "pcbgolf_2.kicad_sch"
+    ],
+    [
+      "USB_SD",
+      "pcbgolf_3.kicad_sch"
+    ],
+    [
+      "CAN",
+      "pcbgolf_4.kicad_sch"
+    ],
+    [
+      "Ports",
+      "pcbgolf_5.kicad_sch"
+    ]
+  ],
+  "footprint_paths_updated": 245,
+  "electrical_wires_modified": false,
+  "global_labels_modified": false
+}

@@ -1,0 +1,44 @@
+{
+  "changes": [
+    {
+      "reference": "J3",
+      "unused_terminal_pad_alias": [
+        "B2",
+        "B2T"
+      ]
+    },
+    {
+      "reference": "J3",
+      "unused_terminal_pad_alias": [
+        "B3",
+        "B3T"
+      ]
+    },
+    {
+      "reference": "J3",
+      "unused_terminal_pad_alias": [
+        "B8",
+        "B8T"
+      ]
+    },
+    {
+      "reference": "J3",
+      "unused_terminal_pad_alias": [
+        "B10",
+        "B10T"
+      ]
+    },
+    {
+      "reference": "J3",
+      "unused_terminal_pad_alias": [
+        "B11",
+        "B11T"
+      ]
+    }
+  ],
+  "clearance_mm": 0.15,
+  "hole_clearance_mm": 0.2,
+  "copper_edge_clearance_mm": 0.2,
+  "status": "EXPERIMENTAL_NOT_FAB_APPROVED",
+  "source": "https://jlcpcb.com/capabilities/pcb-capabilities/"
+}

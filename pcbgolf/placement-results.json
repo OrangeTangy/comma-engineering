@@ -1,0 +1,19 @@
+{
+  "status": "UNROUTED_PLACEMENT_STUDY",
+  "board_outline_mm": [
+    70.0,
+    60.0
+  ],
+  "proxy_clearance_mm": 0.25,
+  "seed": 20261015,
+  "accepted_moves": 285,
+  "initial_local_objective": 25036.358872,
+  "final_local_objective": 24702.653672,
+  "baseline_all_net_hpwl_mm": 10780.574,
+  "candidate_all_net_hpwl_mm": 7685.12,
+  "pad_net_identity_preserved": true,
+  "validated_score": null,
+  "native_drc": "NOT_RUN",
+  "assembly_step": "NOT_VALIDATED",
+  "missing_courtyard_count": 69
+}

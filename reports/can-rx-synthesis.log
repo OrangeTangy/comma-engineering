@@ -1,0 +1,1534 @@
+Preparing to run yowasp-yosys. This might take a while...
+
+-- Running command `read_verilog -sv outputs/comma-engineering/can-core/rtl/can_rx.sv; synth_gowin -top can_rx; check -assert; stat' --
+
+1. Executing Verilog-2005 frontend: outputs/comma-engineering/can-core/rtl/can_rx.sv
+Parsing SystemVerilog input from `outputs/comma-engineering/can-core/rtl/can_rx.sv' to AST representation.
+Generating RTLIL representation for module `\can_rx'.
+Successfully finished Verilog frontend.
+
+2. Executing SYNTH_GOWIN pass.
+
+2.1. Executing Verilog-2005 frontend: /share/gowin/cells_sim.v
+Parsing Verilog input from `/share/gowin/cells_sim.v' to AST representation.
+Generating RTLIL representation for module `\LUT1'.
+Generating RTLIL representation for module `\LUT2'.
+Generating RTLIL representation for module `\LUT3'.
+Generating RTLIL representation for module `\LUT4'.
+Generating RTLIL representation for module `\__APICULA_LUT5'.
+Generating RTLIL representation for module `\__APICULA_LUT6'.
+Generating RTLIL representation for module `\__APICULA_LUT7'.
+Generating RTLIL representation for module `\__APICULA_LUT8'.
+Generating RTLIL representation for module `\MUX2'.
+Generating RTLIL representation for module `\MUX2_LUT5'.
+Generating RTLIL representation for module `\MUX2_LUT6'.
+Generating RTLIL representation for module `\MUX2_LUT7'.
+Generating RTLIL representation for module `\MUX2_LUT8'.
+Generating RTLIL representation for module `\DFF'.
+Generating RTLIL representation for module `\DFFE'.
+Generating RTLIL representation for module `\DFFS'.
+Generating RTLIL representation for module `\DFFSE'.
+Generating RTLIL representation for module `\DFFR'.
+Generating RTLIL representation for module `\DFFRE'.
+Generating RTLIL representation for module `\DFFP'.
+Generating RTLIL representation for module `\DFFPE'.
+Generating RTLIL representation for module `\DFFC'.
+Generating RTLIL representation for module `\DFFCE'.
+Generating RTLIL representation for module `\DFFN'.
+Generating RTLIL representation for module `\DFFNE'.
+Generating RTLIL representation for module `\DFFNS'.
+Generating RTLIL representation for module `\DFFNSE'.
+Generating RTLIL representation for module `\DFFNR'.
+Generating RTLIL representation for module `\DFFNRE'.
+Generating RTLIL representation for module `\DFFNP'.
+Generating RTLIL representation for module `\DFFNPE'.
+Generating RTLIL representation for module `\DFFNC'.
+Generating RTLIL representation for module `\DFFNCE'.
+Generating RTLIL representation for module `\DL'.
+Generating RTLIL representation for module `\DLN'.
+Generating RTLIL representation for module `\DLE'.
+Generating RTLIL representation for module `\DLNE'.
+Generating RTLIL representation for module `\DLC'.
+Generating RTLIL representation for module `\DLCE'.
+Generating RTLIL representation for module `\DLNC'.
+Generating RTLIL representation for module `\DLNCE'.
+Generating RTLIL representation for module `\DLP'.
+Generating RTLIL representation for module `\DLPE'.
+Generating RTLIL representation for module `\DLNP'.
+Generating RTLIL representation for module `\DLNPE'.
+Generating RTLIL representation for module `\VCC'.
+Generating RTLIL representation for module `\GND'.
+Generating RTLIL representation for module `\IBUF'.
+Generating RTLIL representation for module `\OBUF'.
+Generating RTLIL representation for module `\TBUF'.
+Generating RTLIL representation for module `\IOBUF'.
+Generating RTLIL representation for module `\ELVDS_OBUF'.
+Generating RTLIL representation for module `\TLVDS_OBUF'.
+Generating RTLIL representation for module `\OSER4'.
+Generating RTLIL representation for module `\OSER4_MEM'.
+Generating RTLIL representation for module `\OSER8'.
+Generating RTLIL representation for module `\OSER10'.
+Generating RTLIL representation for module `\OVIDEO'.
+Generating RTLIL representation for module `\OSER16'.
+Generating RTLIL representation for module `\IDES4'.
+Generating RTLIL representation for module `\IDES4_MEM'.
+Generating RTLIL representation for module `\IDES8'.
+Generating RTLIL representation for module `\IDES10'.
+Generating RTLIL representation for module `\IVIDEO'.
+Generating RTLIL representation for module `\IDES16'.
+Generating RTLIL representation for module `\IDDR'.
+Generating RTLIL representation for module `\IDDRC'.
+Generating RTLIL representation for module `\DQS'.
+Generating RTLIL representation for module `\ODDR'.
+Generating RTLIL representation for module `\ODDRC'.
+Generating RTLIL representation for module `\GSR'.
+Generating RTLIL representation for module `\BANDGAP'.
+Generating RTLIL representation for module `\ALU'.
+Generating RTLIL representation for module `\RAM16S1'.
+Generating RTLIL representation for module `\RAM16S2'.
+Generating RTLIL representation for module `\RAM16S4'.
+Generating RTLIL representation for module `\RAM16SDP1'.
+Generating RTLIL representation for module `\RAM16SDP2'.
+Generating RTLIL representation for module `\RAM16SDP4'.
+Generating RTLIL representation for module `\SP'.
+Generating RTLIL representation for module `\SPX9'.
+Generating RTLIL representation for module `\SDP'.
+Generating RTLIL representation for module `\SDPX9'.
+Generating RTLIL representation for module `\DP'.
+Generating RTLIL representation for module `\DPX9'.
+Generating RTLIL representation for module `\rPLL'.
+Generating RTLIL representation for module `\PLLVR'.
+Generating RTLIL representation for module `\OSC'.
+Generating RTLIL representation for module `\OSCZ'.
+Generating RTLIL representation for module `\OSCF'.
+Generating RTLIL representation for module `\OSCH'.
+Generating RTLIL representation for module `\OSCW'.
+Generating RTLIL representation for module `\OSCO'.
+Generating RTLIL representation for module `\EMCU'.
+Successfully finished Verilog frontend.
+
+2.2. Executing Verilog-2005 frontend: /share/gowin/cells_xtra_gw1n.v
+Parsing Verilog input from `/share/gowin/cells_xtra_gw1n.v' to AST representation.
+Generating RTLIL representation for module `\LUT5'.
+Generating RTLIL representation for module `\LUT6'.
+Generating RTLIL representation for module `\LUT7'.
+Generating RTLIL representation for module `\LUT8'.
+Generating RTLIL representation for module `\INV'.
+Generating RTLIL representation for module `\IODELAY'.
+Generating RTLIL representation for module `\IEM'.
+Generating RTLIL representation for module `\ROM16'.
+Generating RTLIL representation for module `\ROM'.
+Generating RTLIL representation for module `\ROMX9'.
+Generating RTLIL representation for module `\pROM'.
+Generating RTLIL representation for module `\pROMX9'.
+Generating RTLIL representation for module `\SDPB'.
+Generating RTLIL representation for module `\SDPX9B'.
+Generating RTLIL representation for module `\DPB'.
+Generating RTLIL representation for module `\DPX9B'.
+Generating RTLIL representation for module `\PADD18'.
+Generating RTLIL representation for module `\PADD9'.
+Generating RTLIL representation for module `\MULT9X9'.
+Generating RTLIL representation for module `\MULT18X18'.
+Generating RTLIL representation for module `\MULT36X36'.
+Generating RTLIL representation for module `\MULTALU36X18'.
+Generating RTLIL representation for module `\MULTADDALU18X18'.
+Generating RTLIL representation for module `\MULTALU18X18'.
+Generating RTLIL representation for module `\ALU54D'.
+Generating RTLIL representation for module `\BUFG'.
+Generating RTLIL representation for module `\BUFS'.
+Generating RTLIL representation for module `\PLL'.
+Generating RTLIL representation for module `\TLVDS_IBUF'.
+Generating RTLIL representation for module `\TLVDS_TBUF'.
+Generating RTLIL representation for module `\TLVDS_IOBUF'.
+Generating RTLIL representation for module `\ELVDS_IBUF'.
+Generating RTLIL representation for module `\ELVDS_TBUF'.
+Generating RTLIL representation for module `\ELVDS_IOBUF'.
+Generating RTLIL representation for module `\MIPI_IBUF'.
+Generating RTLIL representation for module `\MIPI_IBUF_HS'.
+Generating RTLIL representation for module `\MIPI_IBUF_LP'.
+Generating RTLIL representation for module `\MIPI_OBUF'.
+Generating RTLIL representation for module `\MIPI_OBUF_A'.
+Generating RTLIL representation for module `\ELVDS_IBUF_MIPI'.
+Generating RTLIL representation for module `\I3C_IOBUF'.
+Generating RTLIL representation for module `\CLKDIV'.
+Generating RTLIL representation for module `\DHCEN'.
+Generating RTLIL representation for module `\DLLDLY'.
+Generating RTLIL representation for module `\FLASH96K'.
+Generating RTLIL representation for module `\FLASH256K'.
+Generating RTLIL representation for module `\FLASH608K'.
+Generating RTLIL representation for module `\DCS'.
+Generating RTLIL representation for module `\DQCE'.
+Generating RTLIL representation for module `\CLKDIV2'.
+Generating RTLIL representation for module `\DHCENC'.
+Generating RTLIL representation for module `\FLASH64K'.
+Generating RTLIL representation for module `\FLASH64KZ'.
+Successfully finished Verilog frontend.
+
+2.3. Executing HIERARCHY pass (managing design hierarchy).
+
+2.3.1. Analyzing design hierarchy..
+Top module:  \can_rx
+
+2.3.2. Analyzing design hierarchy..
+Top module:  \can_rx
+Removed 0 unused modules.
+
+2.4. Executing PROC pass (convert processes to netlists).
+
+2.4.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.4.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 19 switch rules as full_case in process $proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19 in module can_rx.
+Removed a total of 0 dead cases.
+
+2.4.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 2 redundant assignments.
+Promoted 3 assignments to connections.
+
+2.4.4. Executing PROC_INIT pass (extract init attributes).
+
+2.4.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.4.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~26 debug messages>
+
+2.4.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+     1/40: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$53
+     2/40: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$55
+     3/40: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$54
+     4/40: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$45
+     5/40: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$44
+     6/40: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$43
+     7/40: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$39
+     8/40: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$38
+     9/40: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$37
+    10/40: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$32
+    11/40: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$31
+    12/40: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$30
+    13/40: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$28
+    14/40: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$27
+    15/40: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$26
+    16/40: $0\frame_error[0:0]
+    17/40: $0\frame_valid[0:0]
+    18/40: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b[0:0]$25
+    19/40: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c[14:0]$24
+    20/40: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result[14:0]$23
+    21/40: $0\crc_good[0:0]
+    22/40: $0\data_work[63:0]
+    23/40: $0\dlc_work[3:0]
+    24/40: $0\rtr_work[0:0]
+    25/40: $0\id_work[10:0]
+    26/40: $0\crc_wire[14:0]
+    27/40: $0\crc_reg[14:0]
+    28/40: $0\last_bit[0:0]
+    29/40: $0\idle_count[3:0]
+    30/40: $0\tail_count[3:0]
+    31/40: $0\run_length[3:0]
+    32/40: $0\crc_pos[4:0]
+    33/40: $0\data_bits[6:0]
+    34/40: $0\pos[6:0]
+    35/40: $0\state[3:0]
+    36/40: $0\data[63:0]
+    37/40: $0\dlc[3:0]
+    38/40: $0\remote_frame[0:0]
+    39/40: $0\identifier[10:0]
+    40/40: $0\error_code[2:0]
+
+2.4.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+2.4.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\can_rx.\frame_valid' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1373' with positive edge clock.
+Creating register for signal `\can_rx.\frame_error' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1374' with positive edge clock.
+Creating register for signal `\can_rx.\error_code' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1375' with positive edge clock.
+Creating register for signal `\can_rx.\identifier' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1376' with positive edge clock.
+Creating register for signal `\can_rx.\remote_frame' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1377' with positive edge clock.
+Creating register for signal `\can_rx.\dlc' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1378' with positive edge clock.
+Creating register for signal `\can_rx.\data' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1379' with positive edge clock.
+Creating register for signal `\can_rx.\state' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1380' with positive edge clock.
+Creating register for signal `\can_rx.\pos' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1381' with positive edge clock.
+Creating register for signal `\can_rx.\data_bits' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1382' with positive edge clock.
+Creating register for signal `\can_rx.\crc_pos' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1383' with positive edge clock.
+Creating register for signal `\can_rx.\run_length' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1384' with positive edge clock.
+Creating register for signal `\can_rx.\tail_count' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1385' with positive edge clock.
+Creating register for signal `\can_rx.\idle_count' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1386' with positive edge clock.
+Creating register for signal `\can_rx.\last_bit' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1387' with positive edge clock.
+Creating register for signal `\can_rx.\crc_reg' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1388' with positive edge clock.
+Creating register for signal `\can_rx.\crc_wire' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1389' with positive edge clock.
+Creating register for signal `\can_rx.\id_work' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1390' with positive edge clock.
+Creating register for signal `\can_rx.\rtr_work' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1391' with positive edge clock.
+Creating register for signal `\can_rx.\dlc_work' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1392' with positive edge clock.
+Creating register for signal `\can_rx.\data_work' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1393' with positive edge clock.
+Creating register for signal `\can_rx.\crc_good' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1394' with positive edge clock.
+Creating register for signal `\can_rx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.$result' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1395' with positive edge clock.
+Creating register for signal `\can_rx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.c' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1396' with positive edge clock.
+Creating register for signal `\can_rx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_rx.sv:70$2.b' using process `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+  created $dff cell `$procdff$1397' with positive edge clock.
+
+2.4.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.4.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 26 empty switches in `\can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+Removing empty process `can_rx.$proc$outputs/comma-engineering/can-core/rtl/can_rx.sv:40$19'.
+Cleaned up 26 empty switches.
+
+2.4.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~35 debug messages>
+
+2.5. Executing CHECK pass (checking for obvious problems).
+Checking module can_rx...
+Found and reported 0 problems.
+
+2.6. Executing FLATTEN pass (flatten design).
+
+2.7. Executing TRIBUF pass.
+
+2.8. Executing DEMINOUT pass (demote inout ports to input or output).
+
+2.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.10. Executing CHECK pass (checking for obvious problems).
+Checking module can_rx...
+Found and reported 0 problems.
+
+2.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 75 unused cells and 393 unused wires.
+<suppressed ~78 debug messages>
+
+2.12. Executing OPT pass (performing simple optimizations).
+
+2.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 350 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 303 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 302 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~144 debug messages>
+Removed a total of 48 cells.
+
+2.12.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+      Replacing known input bits on port B of cell $procmux$708: \crc_good -> 1'1
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~258 debug messages>
+
+2.12.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+    New ctrl vector for $pmux cell $procmux$968: { $procmux$1239_CMP $procmux$1174_CMP $auto$opt_reduce.cc:137:opt_pmux$1399 $procmux$1179_CMP $procmux$1204_CMP }
+    New ctrl vector for $pmux cell $procmux$625: { $procmux$1239_CMP $procmux$1174_CMP $auto$opt_reduce.cc:137:opt_pmux$1401 $procmux$1179_CMP $procmux$1204_CMP }
+    New ctrl vector for $pmux cell $procmux$1331: { $procmux$1239_CMP $procmux$1174_CMP $auto$opt_reduce.cc:137:opt_pmux$1403 $procmux$1179_CMP $procmux$1204_CMP }
+  Optimizing cells in module \can_rx.
+Performed a total of 3 changes.
+
+2.12.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 305 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 302 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~9 debug messages>
+Removed a total of 3 cells.
+
+2.12.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.12.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 51 unused wires.
+<suppressed ~1 debug messages>
+
+2.12.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.12.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.12.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~260 debug messages>
+
+2.12.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.12.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 302 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.12.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.12.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.12.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.12.16. Finished fast OPT passes. (There is nothing left to do.)
+
+2.13. Executing FSM pass (extract and optimize FSM).
+
+2.13.1. Executing FSM_DETECT pass (finding FSMs in design).
+Not marking can_rx.state as FSM state register:
+    Users of register don't seem to benefit from recoding.
+Not marking can_rx.error_code as FSM state register:
+    Register is connected to module port.
+    Users of register don't seem to benefit from recoding.
+
+2.13.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+2.13.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+2.13.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.13.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+2.13.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+2.13.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+2.13.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+2.14. Executing OPT pass (performing simple optimizations).
+
+2.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 302 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~260 debug messages>
+
+2.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 302 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $procdff$1394 ($dff) from module can_rx (D = $procmux$747_Y, Q = \crc_good, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1404 ($sdff) from module can_rx (D = $procmux$742_Y, Q = \crc_good).
+Adding SRST signal on $procdff$1393 ($dff) from module can_rx (D = $procmux$786_Y, Q = \data_work, rval = 64'0000000000000000000000000000000000000000000000000000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1424 ($sdff) from module can_rx (D = $procmux$781_Y, Q = \data_work).
+Adding SRST signal on $procdff$1392 ($dff) from module can_rx (D = $procmux$823_Y, Q = \dlc_work, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1446 ($sdff) from module can_rx (D = $procmux$818_Y, Q = \dlc_work).
+Adding SRST signal on $procdff$1391 ($dff) from module can_rx (D = $procmux$854_Y, Q = \rtr_work, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1466 ($sdff) from module can_rx (D = $procmux$849_Y, Q = \rtr_work).
+Adding SRST signal on $procdff$1390 ($dff) from module can_rx (D = $procmux$882_Y, Q = \id_work, rval = 11'00000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1482 ($sdff) from module can_rx (D = $procmux$877_Y, Q = \id_work).
+Adding SRST signal on $procdff$1389 ($dff) from module can_rx (D = $procmux$906_Y, Q = \crc_wire, rval = 15'000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1496 ($sdff) from module can_rx (D = $procmux$901_Y, Q = \crc_wire).
+Adding SRST signal on $procdff$1388 ($dff) from module can_rx (D = $procmux$931_Y, Q = \crc_reg, rval = 15'000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1508 ($sdff) from module can_rx (D = $procmux$926_Y, Q = \crc_reg).
+Adding SRST signal on $procdff$1387 ($dff) from module can_rx (D = $procmux$953_Y, Q = \last_bit, rval = 1'1).
+Adding EN signal on $auto$ff.cc:337:slice$1520 ($sdff) from module can_rx (D = $procmux$948_Y, Q = \last_bit).
+Adding SRST signal on $procdff$1386 ($dff) from module can_rx (D = $procmux$1011_Y, Q = \idle_count, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1532 ($sdff) from module can_rx (D = $procmux$1009_Y, Q = \idle_count).
+Adding SRST signal on $procdff$1385 ($dff) from module can_rx (D = $procmux$1042_Y, Q = \tail_count, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1554 ($sdff) from module can_rx (D = $procmux$1024_Y, Q = \tail_count).
+Adding SRST signal on $procdff$1384 ($dff) from module can_rx (D = $procmux$1064_Y, Q = \run_length, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1574 ($sdff) from module can_rx (D = $procmux$1059_Y, Q = \run_length).
+Adding SRST signal on $procdff$1383 ($dff) from module can_rx (D = $procmux$1091_Y, Q = \crc_pos, rval = 5'00000).
+Adding EN signal on $auto$ff.cc:337:slice$1586 ($sdff) from module can_rx (D = $procmux$1086_Y, Q = \crc_pos).
+Adding SRST signal on $procdff$1382 ($dff) from module can_rx (D = $procmux$1128_Y, Q = \data_bits, rval = 7'0000000).
+Adding EN signal on $auto$ff.cc:337:slice$1600 ($sdff) from module can_rx (D = $ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$69_Y [6:0], Q = \data_bits).
+Adding SRST signal on $procdff$1381 ($dff) from module can_rx (D = $procmux$1153_Y, Q = \pos, rval = 7'0000000).
+Adding EN signal on $auto$ff.cc:337:slice$1616 ($sdff) from module can_rx (D = $procmux$1148_Y, Q = \pos).
+Adding SRST signal on $procdff$1380 ($dff) from module can_rx (D = $procmux$1225_Y, Q = \state, rval = 4'0111).
+Adding EN signal on $auto$ff.cc:337:slice$1628 ($sdff) from module can_rx (D = $procmux$1223_Y, Q = \state).
+Adding SRST signal on $procdff$1379 ($dff) from module can_rx (D = $procmux$1249_Y, Q = \data, rval = 64'0000000000000000000000000000000000000000000000000000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1656 ($sdff) from module can_rx (D = \data_work, Q = \data).
+Adding SRST signal on $procdff$1378 ($dff) from module can_rx (D = $procmux$1273_Y, Q = \dlc, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1668 ($sdff) from module can_rx (D = \dlc_work, Q = \dlc).
+Adding SRST signal on $procdff$1377 ($dff) from module can_rx (D = $procmux$1297_Y, Q = \remote_frame, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1680 ($sdff) from module can_rx (D = \rtr_work, Q = \remote_frame).
+Adding SRST signal on $procdff$1376 ($dff) from module can_rx (D = $procmux$1321_Y, Q = \identifier, rval = 11'00000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1692 ($sdff) from module can_rx (D = \id_work, Q = \identifier).
+Adding SRST signal on $procdff$1375 ($dff) from module can_rx (D = $procmux$1368_Y, Q = \error_code, rval = 3'000).
+Adding EN signal on $auto$ff.cc:337:slice$1704 ($sdff) from module can_rx (D = $procmux$1360_Y, Q = \error_code).
+Adding SRST signal on $procdff$1374 ($dff) from module can_rx (D = $procmux$654_Y, Q = \frame_error, rval = 1'0).
+Adding SRST signal on $procdff$1373 ($dff) from module can_rx (D = $procmux$670_Y, Q = \frame_valid, rval = 1'0).
+
+2.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 100 unused cells and 100 unused wires.
+<suppressed ~101 debug messages>
+
+2.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~15 debug messages>
+
+2.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~156 debug messages>
+
+2.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.14.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 349 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 285 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 280 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~207 debug messages>
+Removed a total of 69 cells.
+
+2.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 69 unused wires.
+<suppressed ~1 debug messages>
+
+2.14.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.14.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.14.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~164 debug messages>
+
+2.14.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.14.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 280 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.14.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.14.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.14.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.14.23. Finished fast OPT passes. (There is nothing left to do.)
+
+2.15. Executing WREDUCE pass (reducing word size of cells).
+Removed top 1 bits (of 2) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1721 ($ne).
+Removed top 2 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1717 ($ne).
+Removed top 1 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1711 ($ne).
+Removed top 1 bits (of 2) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1707 ($ne).
+Removed top 1 bits (of 2) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1653 ($ne).
+Removed top 1 bits (of 4) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1651 ($ne).
+Removed top 4 bits (of 5) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1647 ($ne).
+Removed top 1 bits (of 7) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1645 ($ne).
+Removed top 1 bits (of 7) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1643 ($ne).
+Removed top 6 bits (of 7) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1641 ($ne).
+Removed top 6 bits (of 7) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1639 ($ne).
+Removed top 1 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1551 ($ne).
+Removed top 3 bits (of 4) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1545 ($ne).
+Removed top 2 bits (of 4) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1539 ($ne).
+Removed top 2 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1535 ($ne).
+Removed top 1 bits (of 15) from FF cell can_rx.$auto$ff.cc:337:slice$1497 ($sdffe).
+Removed top 1 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1419 ($ne).
+Removed top 2 bits (of 3) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1415 ($ne).
+Removed top 3 bits (of 4) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1413 ($ne).
+Removed top 3 bits (of 4) from port B of cell can_rx.$auto$simple.cc:194:make_patterns_logic$1411 ($ne).
+Removed top 1 bits (of 4) from port B of cell can_rx.$ne$outputs/comma-engineering/can-core/rtl/can_rx.sv:30$17 ($ne).
+Removed top 1 bits (of 4) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:50$29 ($eq).
+Removed top 1 bits (of 4) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:60$41 ($eq).
+Removed top 27 bits (of 32) from port Y of cell can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51 ($add).
+Removed top 28 bits (of 32) from mux cell can_rx.$ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$52 ($mux).
+Removed top 28 bits (of 32) from port B of cell can_rx.$le$outputs/comma-engineering/can-core/rtl/can_rx.sv:72$60 ($le).
+Removed top 3 bits (of 7) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:73$61 ($eq).
+Removed top 3 bits (of 7) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:74$62 ($eq).
+Removed top 28 bits (of 32) from port B of cell can_rx.$ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$64 ($ge).
+Removed top 27 bits (of 32) from port B of cell can_rx.$le$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$65 ($le).
+Removed top 2 bits (of 7) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:78$67 ($eq).
+Removed top 28 bits (of 32) from port A of cell can_rx.$gt$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$68 ($gt).
+Removed top 28 bits (of 32) from port B of cell can_rx.$gt$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$68 ($gt).
+Removed top 25 bits (of 32) from mux cell can_rx.$ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$69 ($mux).
+Removed top 27 bits (of 32) from port B of cell can_rx.$ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:82$72 ($ge).
+Removed top 27 bits (of 32) from port A of cell can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73 ($add).
+Removed top 24 bits (of 32) from port Y of cell can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73 ($add).
+Removed top 24 bits (of 32) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$74 ($eq).
+Removed top 1 bits (of 5) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:89$75 ($eq).
+Removed top 29 bits (of 32) from port B of cell can_rx.$lt$outputs/comma-engineering/can-core/rtl/can_rx.sv:105$82 ($lt).
+Removed top 1 bits (of 4) from port B of cell can_rx.$eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:106$84 ($eq).
+Removed top 1 bits (of 15) from mux cell can_rx.$procmux$901 ($mux).
+Removed top 3 bits (of 4) from mux cell can_rx.$procmux$1169 ($mux).
+Removed top 3 bits (of 4) from mux cell can_rx.$procmux$1172 ($mux).
+Removed top 1 bits (of 4) from port B of cell can_rx.$procmux$1174_CMP0 ($eq).
+Removed top 1 bits (of 4) from port B of cell can_rx.$procmux$1175_CMP0 ($eq).
+Removed top 2 bits (of 4) from mux cell can_rx.$procmux$1177 ($mux).
+Removed top 2 bits (of 4) from port B of cell can_rx.$procmux$1179_CMP0 ($eq).
+Removed top 2 bits (of 4) from port B of cell can_rx.$procmux$1183_CMP0 ($eq).
+Removed top 3 bits (of 4) from port B of cell can_rx.$procmux$1204_CMP0 ($eq).
+Removed top 1 bits (of 4) from port B of cell can_rx.$procmux$1239_CMP0 ($eq).
+Removed top 1 bits (of 5) from port Y of cell can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51 ($add).
+Removed top 1 bits (of 15) from mux cell can_rx.$procmux$896 ($mux).
+Removed top 1 bits (of 15) from mux cell can_rx.$procmux$893 ($mux).
+Removed top 1 bits (of 15) from wire can_rx.$procmux$901_Y.
+Removed top 1 bits (of 15) from wire can_rx.$procmux$896_Y.
+Removed top 1 bits (of 15) from wire can_rx.$procmux$893_Y.
+Removed top 3 bits (of 4) from wire can_rx.$procmux$1169_Y.
+Removed top 3 bits (of 4) from wire can_rx.$procmux$1172_Y.
+Removed top 2 bits (of 4) from wire can_rx.$procmux$1177_Y.
+Removed top 24 bits (of 32) from wire can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73_Y.
+Removed top 25 bits (of 32) from wire can_rx.$ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$69_Y.
+Removed top 28 bits (of 32) from wire can_rx.$ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$52_Y.
+Removed top 28 bits (of 32) from wire can_rx.$add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51_Y.
+Removed top 1 bits (of 15) from wire can_rx.crc_wire.
+
+2.16. Executing PEEPOPT pass (run peephole optimizers).
+
+2.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 11 unused wires.
+<suppressed ~1 debug messages>
+
+2.18. Executing SHARE pass (SAT-based resource sharing).
+
+2.19. Executing TECHMAP pass (map to technology primitives).
+
+2.19.1. Executing Verilog-2005 frontend: /share/mul2dsp.v
+Parsing Verilog input from `/share/mul2dsp.v' to AST representation.
+Generating RTLIL representation for module `\_80_mul'.
+Generating RTLIL representation for module `\_90_soft_mul'.
+Successfully finished Verilog frontend.
+
+2.19.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+2.20. Executing TECHMAP pass (map to technology primitives).
+
+2.20.1. Executing Verilog-2005 frontend: /share/mul2dsp.v
+Parsing Verilog input from `/share/mul2dsp.v' to AST representation.
+Generating RTLIL representation for module `\_80_mul'.
+Generating RTLIL representation for module `\_90_soft_mul'.
+Successfully finished Verilog frontend.
+
+2.20.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+2.21. Executing TECHMAP pass (map to technology primitives).
+
+2.21.1. Executing Verilog-2005 frontend: /share/mul2dsp.v
+Parsing Verilog input from `/share/mul2dsp.v' to AST representation.
+Generating RTLIL representation for module `\_80_mul'.
+Generating RTLIL representation for module `\_90_soft_mul'.
+Successfully finished Verilog frontend.
+
+2.21.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+2.22. Executing TECHMAP pass (map to technology primitives).
+
+2.22.1. Executing Verilog-2005 frontend: /share/mul2dsp.v
+Parsing Verilog input from `/share/mul2dsp.v' to AST representation.
+Generating RTLIL representation for module `\_80_mul'.
+Generating RTLIL representation for module `\_90_soft_mul'.
+Successfully finished Verilog frontend.
+
+2.22.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+2.23. Executing TECHMAP pass (map to technology primitives).
+
+2.23.1. Executing Verilog-2005 frontend: /share/gowin/dsp_map.v
+Parsing Verilog input from `/share/gowin/dsp_map.v' to AST representation.
+Generating RTLIL representation for module `$__MUL9X9'.
+Generating RTLIL representation for module `$__MUL18X18'.
+Generating RTLIL representation for module `$__MUL36X36'.
+Successfully finished Verilog frontend.
+
+2.23.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~5 debug messages>
+
+2.24. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module can_rx:
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:112$86 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:92$77 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:71$59 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:53$35 ($add).
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:53$35.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:71$59.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:92$77.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:112$86.
+  creating $alu model for $lt$outputs/comma-engineering/can-core/rtl/can_rx.sv:105$82 ($lt): new $alu
+  creating $alu model for $ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:82$72 ($ge): new $alu
+  creating $alu model for $gt$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$68 ($gt): new $alu
+  creating $alu model for $le$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$65 ($le): new $alu
+  creating $alu model for $ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$64 ($ge): new $alu
+  creating $alu model for $le$outputs/comma-engineering/can-core/rtl/can_rx.sv:72$60 ($le): new $alu
+  creating $alu model for $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:106$84 ($eq): merged with $lt$outputs/comma-engineering/can-core/rtl/can_rx.sv:105$82.
+  creating $alu model for $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:78$67 ($eq): merged with $le$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$65.
+  creating $alu cell for $le$outputs/comma-engineering/can-core/rtl/can_rx.sv:72$60: $auto$alumacc.cc:578:replace_alu$1757
+  creating $alu cell for $ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$64: $auto$alumacc.cc:578:replace_alu$1766
+  creating $alu cell for $le$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$65, $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:78$67: $auto$alumacc.cc:578:replace_alu$1779
+  creating $alu cell for $gt$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$68: $auto$alumacc.cc:578:replace_alu$1788
+  creating $alu cell for $ge$outputs/comma-engineering/can-core/rtl/can_rx.sv:82$72: $auto$alumacc.cc:578:replace_alu$1799
+  creating $alu cell for $lt$outputs/comma-engineering/can-core/rtl/can_rx.sv:105$82, $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:106$84: $auto$alumacc.cc:578:replace_alu$1812
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:112$86: $auto$alumacc.cc:578:replace_alu$1819
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:92$77: $auto$alumacc.cc:578:replace_alu$1822
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:84$73: $auto$alumacc.cc:578:replace_alu$1825
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:71$59: $auto$alumacc.cc:578:replace_alu$1828
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:65$51: $auto$alumacc.cc:578:replace_alu$1831
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_rx.sv:53$35: $auto$alumacc.cc:578:replace_alu$1834
+  created 12 $alu and 0 $macc cells.
+
+2.25. Executing OPT pass (performing simple optimizations).
+
+2.25.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~1 debug messages>
+
+2.25.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 300 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.25.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~164 debug messages>
+
+2.25.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+    New input vector for $reduce_and cell $auto$simple.cc:211:make_patterns_logic$1615: { $logic_and$outputs/comma-engineering/can-core/rtl/can_rx.sv:76$66_Y $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$9_Y \sample_en $auto$rtlil.cc:3245:Not$1421 $auto$rtlil.cc:3245:Not$1569 $auto$rtlil.cc:3245:Not$1571 $auto$rtlil.cc:3245:Not$1609 $auto$rtlil.cc:3245:Not$1611 $auto$rtlil.cc:3245:Not$1613 $auto$alumacc.cc:594:replace_alu$1780 }
+    New input vector for $reduce_and cell $auto$simple.cc:211:make_patterns_logic$1667: { $procmux$1025_CMP \sample_en $auto$rtlil.cc:3245:Not$1421 $auto$rtlil.cc:3245:Not$1569 $auto$rtlil.cc:3245:Not$1571 $auto$rtlil.cc:3245:Not$1665 $auto$alumacc.cc:594:replace_alu$1813 }
+  Optimizing cells in module \can_rx.
+Performed a total of 2 changes.
+
+2.25.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 300 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 299 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 298 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+2.25.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.25.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 1 unused cells and 11 unused wires.
+<suppressed ~2 debug messages>
+
+2.25.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.25.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.25.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~167 debug messages>
+
+2.25.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.25.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 297 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.25.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.25.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.25.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.25.16. Finished fast OPT passes. (There is nothing left to do.)
+
+2.26. Executing MEMORY pass.
+
+2.26.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+2.26.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+2.26.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+2.26.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+2.26.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+2.26.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.26.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+2.26.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+2.26.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.26.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.27. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.28. Executing MEMORY_LIBMAP pass (mapping memories to cells).
+
+2.29. Executing TECHMAP pass (map to technology primitives).
+
+2.29.1. Executing Verilog-2005 frontend: /share/gowin/lutrams_map.v
+Parsing Verilog input from `/share/gowin/lutrams_map.v' to AST representation.
+Generating RTLIL representation for module `$__GOWIN_LUTRAM_'.
+Successfully finished Verilog frontend.
+
+2.29.2. Executing Verilog-2005 frontend: /share/gowin/brams_map.v
+Parsing Verilog input from `/share/gowin/brams_map.v' to AST representation.
+Generating RTLIL representation for module `$__GOWIN_SP_'.
+Generating RTLIL representation for module `$__GOWIN_DP_'.
+Generating RTLIL representation for module `$__GOWIN_SDP_'.
+Successfully finished Verilog frontend.
+
+2.29.3. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~6 debug messages>
+
+2.30. Executing OPT pass (performing simple optimizations).
+
+2.30.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~96 debug messages>
+
+2.30.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 217 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 215 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+2.30.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.30.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 93 unused wires.
+<suppressed ~1 debug messages>
+
+2.30.5. Finished fast OPT passes.
+
+2.31. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+2.32. Executing OPT pass (performing simple optimizations).
+
+2.32.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.32.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 215 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.32.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~67 debug messages>
+
+2.32.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+    New ctrl vector for $pmux cell $procmux$968: $procmux$1025_CMP
+    Consolidated identical input bits for $mux cell $procmux$1196:
+      Old ports: A=4'0010, B=4'0111, Y=$procmux$1196_Y
+      New ports: A=1'0, B=1'1, Y=$procmux$1196_Y [0]
+      New connections: $procmux$1196_Y [3:1] = { 1'0 $procmux$1196_Y [0] 1'1 }
+    New ctrl vector for $pmux cell $procmux$705: { $auto$opt_reduce.cc:137:opt_pmux$2052 $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$10_Y }
+    Consolidated identical input bits for $mux cell $procmux$1177:
+      Old ports: A=2'11, B=2'00, Y=$auto$wreduce.cc:513:run$1745 [1:0]
+      New ports: A=1'1, B=1'0, Y=$auto$wreduce.cc:513:run$1745 [0]
+      New connections: $auto$wreduce.cc:513:run$1745 [1] = $auto$wreduce.cc:513:run$1745 [0]
+    New ctrl vector for $pmux cell $procmux$1166: { $procmux$1032_CMP $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:29$14_Y $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$12_Y $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$10_Y $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$9_Y }
+    New ctrl vector for $pmux cell $procmux$1331: { $eq$outputs/comma-engineering/can-core/rtl/can_rx.sv:28$9_Y $procmux$1032_CMP }
+    Consolidated identical input bits for $mux cell $procmux$1337:
+      Old ports: A=3'011, B=3'010, Y=$procmux$1337_Y
+      New ports: A=1'1, B=1'0, Y=$procmux$1337_Y [0]
+      New connections: $procmux$1337_Y [2:1] = 2'01
+    Consolidated identical input bits for $mux cell $procmux$961:
+      Old ports: A=4'0000, B=4'1000, Y=$procmux$961_Y
+      New ports: A=1'0, B=1'1, Y=$procmux$961_Y [3]
+      New connections: $procmux$961_Y [2:0] = 3'000
+    Consolidated identical input bits for $mux cell $ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:79$69:
+      Old ports: A=7'1000000, B={ \dlc_work [2:0] \bus_bit 3'000 }, Y=$auto$wreduce.cc:513:run$1747 [6:0]
+      New ports: A=4'1000, B={ \dlc_work [2:0] \bus_bit }, Y=$auto$wreduce.cc:513:run$1747 [6:3]
+      New connections: $auto$wreduce.cc:513:run$1747 [2:0] = 3'000
+    Consolidated identical input bits for $mux cell $ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:32$57:
+      Old ports: A=15'000000000000000, B=15'100010110011001, Y={ $ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:32$57_Y [14:1] $auto$opt_expr.cc:206:group_cell_inputs$2050 }
+      New ports: A=1'0, B=1'1, Y=$auto$opt_expr.cc:206:group_cell_inputs$2050
+      New connections: $ternary$outputs/comma-engineering/can-core/rtl/can_rx.sv:32$57_Y [14:1] = { $auto$opt_expr.cc:206:group_cell_inputs$2050 3'000 $auto$opt_expr.cc:206:group_cell_inputs$2050 1'0 $auto$opt_expr.cc:206:group_cell_inputs$2050 $auto$opt_expr.cc:206:group_cell_inputs$2050 2'00 $auto$opt_expr.cc:206:group_cell_inputs$2050 $auto$opt_expr.cc:206:group_cell_inputs$2050 2'00 }
+  Optimizing cells in module \can_rx.
+    Consolidated identical input bits for $pmux cell $procmux$1166:
+      Old ports: A=4'0111, B={ 3'011 $auto$wreduce.cc:513:run$1744 [0] 6'010101 $auto$wreduce.cc:513:run$1745 [1:0] 4'0011 $procmux$1196_Y }, Y=$procmux$1166_Y
+      New ports: A=3'111, B={ 2'11 $auto$wreduce.cc:513:run$1744 [0] 4'1011 $auto$wreduce.cc:513:run$1745 [0] $auto$wreduce.cc:513:run$1745 [0] 3'011 $procmux$1196_Y [0] 1'1 $procmux$1196_Y [0] }, Y=$procmux$1166_Y [2:0]
+      New connections: $procmux$1166_Y [3] = 1'0
+    Consolidated identical input bits for $mux cell $procmux$966:
+      Old ports: A=$procmux$961_Y, B=4'0000, Y=$procmux$966_Y
+      New ports: A=$procmux$961_Y [3], B=1'0, Y=$procmux$966_Y [3]
+      New connections: $procmux$966_Y [2:0] = 3'000
+  Optimizing cells in module \can_rx.
+    Consolidated identical input bits for $mux cell $procmux$968:
+      Old ports: A=4'0000, B=$procmux$966_Y, Y=$procmux$968_Y
+      New ports: A=1'0, B=$procmux$966_Y [3], Y=$procmux$968_Y [3]
+      New connections: $procmux$968_Y [2:0] = 3'000
+    Consolidated identical input bits for $mux cell $procmux$1209:
+      Old ports: A=$procmux$1166_Y, B=4'0111, Y=$procmux$1209_Y
+      New ports: A=$procmux$1166_Y [2:0], B=3'111, Y=$procmux$1209_Y [2:0]
+      New connections: $procmux$1209_Y [3] = 1'0
+  Optimizing cells in module \can_rx.
+    Consolidated identical input bits for $mux cell $procmux$997:
+      Old ports: A=$procmux$968_Y, B=4'0000, Y=$procmux$1000_Y
+      New ports: A=$procmux$968_Y [3], B=1'0, Y=$procmux$1000_Y [3]
+      New connections: $procmux$1000_Y [2:0] = 3'000
+    Consolidated identical input bits for $mux cell $procmux$1214:
+      Old ports: A=$procmux$1209_Y, B=4'0001, Y=$procmux$1214_Y
+      New ports: A=$procmux$1209_Y [2:0], B=3'001, Y=$procmux$1214_Y [2:0]
+      New connections: $procmux$1214_Y [3] = 1'0
+  Optimizing cells in module \can_rx.
+    Consolidated identical input bits for $mux cell $procmux$1223:
+      Old ports: A=$procmux$1214_Y, B=4'0000, Y=$procmux$1223_Y
+      New ports: A=$procmux$1214_Y [2:0], B=3'000, Y=$procmux$1223_Y [2:0]
+      New connections: $procmux$1223_Y [3] = 1'0
+  Optimizing cells in module \can_rx.
+Performed a total of 17 changes.
+
+2.32.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 216 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 214 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+2.32.6. Executing OPT_DFF pass (perform DFF optimizations).
+Setting constant 0-bit at position 3 on $auto$ff.cc:337:slice$1629 ($sdffe) from module can_rx.
+Setting constant 0-bit at position 0 on $auto$ff.cc:337:slice$1601 ($sdffe) from module can_rx.
+Setting constant 0-bit at position 1 on $auto$ff.cc:337:slice$1601 ($sdffe) from module can_rx.
+Setting constant 0-bit at position 2 on $auto$ff.cc:337:slice$1601 ($sdffe) from module can_rx.
+
+2.32.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 3 unused wires.
+<suppressed ~1 debug messages>
+
+2.32.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~6 debug messages>
+
+2.32.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.32.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~68 debug messages>
+
+2.32.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.32.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 214 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.32.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.32.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+2.32.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.32.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.32.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~68 debug messages>
+
+2.32.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.32.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 214 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.32.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.32.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.32.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.32.23. Finished fast OPT passes. (There is nothing left to do.)
+
+2.33. Executing TECHMAP pass (map to technology primitives).
+
+2.33.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+2.33.2. Executing Verilog-2005 frontend: /share/gowin/arith_map.v
+Parsing Verilog input from `/share/gowin/arith_map.v' to AST representation.
+Generating RTLIL representation for module `\_80_gw1n_alu'.
+Successfully finished Verilog frontend.
+
+2.33.3. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $sdffe.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $not.
+Using template $paramod$32a7b7b86c07519b7537abc18e96f0331f97914d\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$103b4016182df467cceab67bcf3e18e6361ec0fd\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$bfceb922395790c0ce92e9f9b5b428d4fc72cc30\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$672a140277c71df8314410f22acc08d55222c3c7\_80_gw1n_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $reduce_and.
+Using template $paramod$2116a631f856d4d4902c2618dca73dafa3b8c9c0\_80_gw1n_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $or.
+Using template $paramod$5042debdcb1fbd120a67f55dfe5b3afe2a9f08e5\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$fc972a7a46956c1788f3cb5257b53c8f1df2d0cc\_90_alu for cells of type $alu.
+Using template $paramod$ed40eaed6d7865a5f6e873e7da3aa6067d71cfbb\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$15a3b70ea5534c0cc298fa6d405a538b5f71cb9e\_80_gw1n_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $sdff.
+Using extmapper simplemap for cells of type $ne.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using extmapper simplemap for cells of type $logic_or.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $pmux.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000001 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000001 for cells of type $lcu.
+Using extmapper simplemap for cells of type $and.
+No more expansions possible.
+<suppressed ~671 debug messages>
+
+2.34. Executing OPT pass (performing simple optimizations).
+
+2.34.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+<suppressed ~643 debug messages>
+
+2.34.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 1029 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 899 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 874 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 871 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Computing hashes of 870 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+<suppressed ~477 debug messages>
+Removed a total of 159 cells.
+
+2.34.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.34.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 5 unused cells and 619 unused wires.
+<suppressed ~6 debug messages>
+
+2.34.5. Finished fast OPT passes.
+
+2.35. Executing IOPADMAP pass (mapping inputs/outputs to IO-PAD cells).
+Mapping port can_rx.receiving using OBUF.
+Mapping port can_rx.ack_request using OBUF.
+Mapping port can_rx.data using OBUF.
+Mapping port can_rx.dlc using OBUF.
+Mapping port can_rx.remote_frame using OBUF.
+Mapping port can_rx.identifier using OBUF.
+Mapping port can_rx.error_code using OBUF.
+Mapping port can_rx.frame_error using OBUF.
+Mapping port can_rx.frame_valid using OBUF.
+Mapping port can_rx.bus_bit using IBUF.
+Mapping port can_rx.sample_en using IBUF.
+Mapping port can_rx.rst using IBUF.
+Mapping port can_rx.clk using IBUF.
+
+2.36. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+2.37. Executing DFFLEGALIZE pass (convert FFs and LATCHes to types supported by the target).
+
+2.38. Executing TECHMAP pass (map to technology primitives).
+
+2.38.1. Executing Verilog-2005 frontend: /share/gowin/cells_map.v
+Parsing Verilog input from `/share/gowin/cells_map.v' to AST representation.
+Generating RTLIL representation for module `$_DFF_N_'.
+Generating RTLIL representation for module `$_DFF_P_'.
+Generating RTLIL representation for module `$_DFFE_PP_'.
+Generating RTLIL representation for module `$_DFFE_NP_'.
+Generating RTLIL representation for module `$_SDFF_PP0_'.
+Generating RTLIL representation for module `$_SDFF_NP0_'.
+Generating RTLIL representation for module `$_SDFFE_PP0P_'.
+Generating RTLIL representation for module `$_SDFFE_NP0P_'.
+Generating RTLIL representation for module `$_SDFF_PP1_'.
+Generating RTLIL representation for module `$_SDFF_NP1_'.
+Generating RTLIL representation for module `$_SDFFE_PP1P_'.
+Generating RTLIL representation for module `$_SDFFE_NP1P_'.
+Generating RTLIL representation for module `$_DFF_PP1_'.
+Generating RTLIL representation for module `$_DFF_NP1_'.
+Generating RTLIL representation for module `$_DFF_PP0_'.
+Generating RTLIL representation for module `$_DFF_NP0_'.
+Generating RTLIL representation for module `$_DFFE_PP1P_'.
+Generating RTLIL representation for module `$_DFFE_NP1P_'.
+Generating RTLIL representation for module `$_DFFE_PP0P_'.
+Generating RTLIL representation for module `$_DFFE_NP0P_'.
+Generating RTLIL representation for module `$lut'.
+Successfully finished Verilog frontend.
+
+2.38.2. Continuing TECHMAP pass.
+Using template $_SDFFE_PP0P_ for cells of type $_SDFFE_PP0P_.
+Using template $_SDFFE_PP1P_ for cells of type $_SDFFE_PP1P_.
+Using template $_SDFF_PP0_ for cells of type $_SDFF_PP0_.
+No more expansions possible.
+<suppressed ~250 debug messages>
+
+2.39. Executing TECHMAP pass (map to technology primitives).
+
+2.39.1. Executing Verilog-2005 frontend: /share/gowin/cells_latch.v
+Parsing Verilog input from `/share/gowin/cells_latch.v' to AST representation.
+Generating RTLIL representation for module `$_DLATCH_P_'.
+Generating RTLIL representation for module `$_DLATCH_N_'.
+Generating RTLIL representation for module `$_DLATCH_PP0_'.
+Generating RTLIL representation for module `$_DLATCH_NP0_'.
+Generating RTLIL representation for module `$_DLATCH_PP1_'.
+Generating RTLIL representation for module `$_DLATCH_NP1_'.
+Successfully finished Verilog frontend.
+
+2.39.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~8 debug messages>
+
+2.40. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.41. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+2.42. Executing SORT pass.
+
+2.43. Executing Verilog-2005 frontend: /share/abc9_model.v
+Parsing Verilog input from `/share/abc9_model.v' to AST representation.
+Generating RTLIL representation for module `$__ABC9_DELAY'.
+Generating RTLIL representation for module `$__ABC9_BARRIER'.
+Generating RTLIL representation for module `$__ABC9_SCC_BREAKER'.
+Generating RTLIL representation for module `$__DFF_N__$abc9_flop'.
+Generating RTLIL representation for module `$__DFF_P__$abc9_flop'.
+Successfully finished Verilog frontend.
+
+2.44. Executing ABC9 pass.
+
+2.44.1. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.2. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.3. Executing PROC pass (convert processes to netlists).
+
+2.44.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.$proc$/share/gowin/cells_sim.v:1064$4548'.
+Cleaned up 1 empty switch.
+
+2.44.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+2.44.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 4 assignments to connections.
+
+2.44.3.4. Executing PROC_INIT pass (extract init attributes).
+
+2.44.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.44.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+2.44.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.$proc$/share/gowin/cells_sim.v:1064$4548'.
+
+2.44.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.\C' from process `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.$proc$/share/gowin/cells_sim.v:1064$4548'.
+No latch inferred for signal `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.\S' from process `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.$proc$/share/gowin/cells_sim.v:1064$4548'.
+
+2.44.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.44.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.44.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `$paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.$proc$/share/gowin/cells_sim.v:1064$4548'.
+Cleaned up 0 empty switches.
+
+2.44.4. Executing SCC pass (detecting logic loops).
+Found 0 SCCs in module can_rx.
+Found 0 SCCs.
+
+2.44.5. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.6. Executing TECHMAP pass (map to technology primitives).
+
+2.44.6.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+2.44.6.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~231 debug messages>
+
+2.44.7. Executing OPT pass (performing simple optimizations).
+
+2.44.7.1. Executing OPT_EXPR pass (perform const folding).
+
+2.44.7.2. Executing OPT_MERGE pass (detect identical cells).
+Removed a total of 0 cells.
+
+2.44.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Removed 0 multiplexer ports.
+
+2.44.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+Performed a total of 0 changes.
+
+2.44.7.5. Executing OPT_MERGE pass (detect identical cells).
+Removed a total of 0 cells.
+
+2.44.7.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.44.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+
+2.44.7.8. Executing OPT_EXPR pass (perform const folding).
+
+2.44.7.9. Finished fast OPT passes. (There is nothing left to do.)
+
+2.44.8. Executing TECHMAP pass (map to technology primitives).
+
+2.44.8.1. Executing Verilog-2005 frontend: /share/abc9_map.v
+Parsing Verilog input from `/share/abc9_map.v' to AST representation.
+Lexer warning: The SystemVerilog keyword `bit' (at /share/abc9_map.v:35) is not recognized unless read_verilog is called with -sv!
+Generating RTLIL representation for module `$__ABC9_BARRIER_MAP'.
+Successfully finished Verilog frontend.
+
+2.44.8.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+2.44.9. Executing Verilog-2005 frontend: /share/abc9_model.v
+Parsing Verilog input from `/share/abc9_model.v' to AST representation.
+Replacing existing blackbox module `$__ABC9_DELAY' at /share/abc9_model.v:2.1-7.10.
+Generating RTLIL representation for module `$__ABC9_DELAY'.
+Replacing existing blackbox module `$__ABC9_BARRIER' at /share/abc9_model.v:10.1-14.10.
+Generating RTLIL representation for module `$__ABC9_BARRIER'.
+Replacing existing blackbox module `$__ABC9_SCC_BREAKER' at /share/abc9_model.v:16.1-18.10.
+Generating RTLIL representation for module `$__ABC9_SCC_BREAKER'.
+Replacing existing module `$__DFF_N__$abc9_flop' at /share/abc9_model.v:21.1-27.10.
+Generating RTLIL representation for module `$__DFF_N__$abc9_flop'.
+Replacing existing module `$__DFF_P__$abc9_flop' at /share/abc9_model.v:30.1-36.10.
+Generating RTLIL representation for module `$__DFF_P__$abc9_flop'.
+Successfully finished Verilog frontend.
+
+2.44.10. Executing ABC9_OPS pass (helper functions for ABC9).
+<suppressed ~681 debug messages>
+
+2.44.11. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.12. Executing ABC9_OPS pass (helper functions for ABC9).
+<suppressed ~2 debug messages>
+
+2.44.13. Executing TECHMAP pass (map to technology primitives).
+
+2.44.13.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+2.44.13.2. Continuing TECHMAP pass.
+Using template $paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010 for cells of type $paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $not.
+No more expansions possible.
+<suppressed ~240 debug messages>
+
+2.44.14. Executing OPT pass (performing simple optimizations).
+
+2.44.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.44.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 14 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.44.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+2.44.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.44.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 14 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.44.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.44.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+Removed 0 unused cells and 16 unused wires.
+<suppressed ~1 debug messages>
+
+2.44.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.44.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.44.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_rx..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+2.44.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_rx.
+Performed a total of 0 changes.
+
+2.44.14.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_rx'.
+Computing hashes of 14 cells of `\can_rx'.
+Finding duplicate cells in `\can_rx'.
+Removed a total of 0 cells.
+
+2.44.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.44.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_rx..
+
+2.44.14.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_rx.
+
+2.44.14.16. Finished fast OPT passes. (There is nothing left to do.)
+
+2.44.15. Executing AIGMAP pass (map logic to AIG).
+Module can_rx: replaced 392 cells with 2186 new cells, skipped 1243 cells.
+  replaced 3 cell types:
+     179 $_MUX_
+     186 $_OR_
+      27 $_XOR_
+  not replaced 10 cell types:
+     132 $_AND_
+      56 $_NOT_
+       4 IBUF
+       4 DFFSE
+       2 DFFR
+     221 DFFRE
+      87 OBUF
+      58 $paramod\ALU\ALU_MODE=s32'00000000000000000000000000000010
+     227 $paramod$__ABC9_DELAY\DELAY=32'00000000000000000000001001000000
+     452 $paramod$__ABC9_DELAY\DELAY=32'00000000000000000000000000111111
+
+2.44.15.1. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.15.2. Executing ABC9_OPS pass (helper functions for ABC9).
+
+2.44.15.3. Executing XAIGER2 backend.
+<suppressed ~2120 debug messages>
+Extracted 1719 AND gates and 0 wires from module `can_rx' to a netlist network with 1117 inputs and 1995 outputs.
+
+2.44.15.4. Executing ABC9_EXE pass (technology mapping using ABC9).
+
+2.44.15.5. Executing ABC9.
+Running ABC command: "/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1

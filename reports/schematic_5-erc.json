@@ -1,0 +1,4028 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T14:05:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a460568a-62a0-4817-80d6-f93742958170",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR050 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.2921
+                            },
+                            "uuid": "fed38d18-bdf5-409d-ab1c-8df186569e42"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #GND088 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.6223
+                            },
+                            "uuid": "9fdf3204-e973-451d-82f9-0a81b0c88fb6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U13 Pin 14 [EN, Input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.3683
+                            },
+                            "uuid": "ea4ebaad-f7f4-4c31-86f5-18d25b4dbabf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 Pin 14 [EN, Input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.9017
+                            },
+                            "uuid": "f8354243-666e-40cb-940f-dc42f274c5a8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 Pin 14 [EN, Input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 1.4351
+                            },
+                            "uuid": "77c07516-00fb-48e3-bec8-ec148ccc0ea4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 Pin 14 [EN, Input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 1.9685
+                            },
+                            "uuid": "1439d2da-a1cc-47d1-8580-bfed27df31ea"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U13 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.3175
+                            },
+                            "uuid": "c1d095ff-de01-4715-af34-80f238138f9c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.8509
+                            },
+                            "uuid": "3ef5e214-04b6-45c8-a249-02765e43cd9d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.3843
+                            },
+                            "uuid": "38c96a32-5aab-447d-81ef-6cdf7c6f0309"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 Pin 4 [VOUT, Power input, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.9177
+                            },
+                            "uuid": "f3de36b4-085e-476a-a649-97c87809339f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR050 [+12V]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.2921
+                            },
+                            "uuid": "803e6822-c0f4-47df-a4ba-7b6c891a1d28"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C50 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.4953
+                            },
+                            "uuid": "a3bf6b12-15cd-40f5-bdcf-8dda0356c330"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C50 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.4953
+                            },
+                            "uuid": "a3bf6b12-15cd-40f5-bdcf-8dda0356c330"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND088 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.6477
+                            },
+                            "uuid": "37fca663-6a96-4c71-ade6-c15c46d9ea49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR051 [+12V]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.8255
+                            },
+                            "uuid": "348b8c9b-e821-4b65-863c-baa33c96d8ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C51 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.0287
+                            },
+                            "uuid": "26f18e30-4d25-4ebb-ae4c-1a9fbd69b236"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C51 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.0287
+                            },
+                            "uuid": "26f18e30-4d25-4ebb-ae4c-1a9fbd69b236"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND089 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.1811
+                            },
+                            "uuid": "bc9091b8-8f9a-4d97-bd99-98e08064fdc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR052 [+12V]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.3589
+                            },
+                            "uuid": "aac6f94a-0a09-4eaf-a092-f4b5eb67c0f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C52 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.5621
+                            },
+                            "uuid": "98fa0328-6b4b-4433-ab3b-83d359858f4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C52 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.5621
+                            },
+                            "uuid": "98fa0328-6b4b-4433-ab3b-83d359858f4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND090 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.7145
+                            },
+                            "uuid": "63247684-5bdd-458b-b7d6-6ede781bbffa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR053 [+12V]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.8923
+                            },
+                            "uuid": "64575697-e8e4-46e0-8a6c-33929527cc75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C53 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 2.0955
+                            },
+                            "uuid": "9009b66f-a3b7-457b-b65f-e7784317c9c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol C53 [comma.ai_11112255_C0805]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 2.0955
+                            },
+                            "uuid": "9009b66f-a3b7-457b-b65f-e7784317c9c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND091 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 2.2479
+                            },
+                            "uuid": "c1577778-5b03-4116-ad6c-2356b8c14ea3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH1_PWR_EN'",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 0.3683
+                            },
+                            "uuid": "6e613c81-14d3-42a8-bba7-429b6ae1c69e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH2_PWR_EN'",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 0.9017
+                            },
+                            "uuid": "7853a596-2d93-4c08-a45a-56e46335de84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH3_PWR_EN'",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 1.4351
+                            },
+                            "uuid": "4b70e7d8-6012-41fe-9462-400219f62fd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CH4_PWR_EN'",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 1.9685
+                            },
+                            "uuid": "001b1966-aaa0-4c63-b1ca-e0b3cfb1e2f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND092 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.3937
+                            },
+                            "uuid": "310eb9ad-adaa-4268-88a1-254dc0582c39"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND093 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.9271
+                            },
+                            "uuid": "e90ad7bb-70f0-40f4-9d6e-92cafab9bd64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND094 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.4605
+                            },
+                            "uuid": "5c935ac8-adb5-4904-b827-4d78bdf72ac5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND095 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.9939
+                            },
+                            "uuid": "9bbc7178-9cc0-467c-a252-3ef330502de4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R66 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.5461
+                            },
+                            "uuid": "81091224-99d1-4bb5-9401-06e0c98b2277"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R66 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.5461
+                            },
+                            "uuid": "81091224-99d1-4bb5-9401-06e0c98b2277"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND096 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.6477
+                            },
+                            "uuid": "d3b65bc9-e60a-44e1-80f2-d95108d35436"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R67 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.0795
+                            },
+                            "uuid": "9912dd96-3aa3-423a-8422-a93069098d1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R67 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.0795
+                            },
+                            "uuid": "9912dd96-3aa3-423a-8422-a93069098d1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND097 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.1811
+                            },
+                            "uuid": "496bd5a8-b0e8-4022-9904-51f161f60dac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R68 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.6129
+                            },
+                            "uuid": "12fada47-f53b-44b1-ba2b-4efaf7076eee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R68 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.6129
+                            },
+                            "uuid": "12fada47-f53b-44b1-ba2b-4efaf7076eee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND098 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.7145
+                            },
+                            "uuid": "8b4e95c4-88cd-4e6e-a54f-7593fc5b5010"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R69 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 2.1463
+                            },
+                            "uuid": "52652a05-9602-4606-986f-75bb08c3a7e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R69 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 2.1463
+                            },
+                            "uuid": "52652a05-9602-4606-986f-75bb08c3a7e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND099 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 2.2479
+                            },
+                            "uuid": "c3507baf-93a8-4b68-95e4-3a083af975e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U13 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 0.5207
+                            },
+                            "uuid": "05600be8-dd8c-4dde-9e67-5d852195c5f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U13 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 0.5207
+                            },
+                            "uuid": "05600be8-dd8c-4dde-9e67-5d852195c5f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U14 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0541
+                            },
+                            "uuid": "0c37d6d0-8e42-41db-8944-056fa3ebc651"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U14 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.0541
+                            },
+                            "uuid": "0c37d6d0-8e42-41db-8944-056fa3ebc651"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U15 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.5875
+                            },
+                            "uuid": "2c571ad7-138e-49c6-8eaa-8f64e1f373d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U15 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.5875
+                            },
+                            "uuid": "2c571ad7-138e-49c6-8eaa-8f64e1f373d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U16 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 2.1209
+                            },
+                            "uuid": "ef7619ce-6fb7-4e52-8f43-64315a383dac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol U16 [comma.ai_11112255_TPS25942]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 2.1209
+                            },
+                            "uuid": "ef7619ce-6fb7-4e52-8f43-64315a383dac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0100 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.6477
+                            },
+                            "uuid": "d81cd032-bd41-40a8-9c11-ec981ac4787d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0101 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 1.1811
+                            },
+                            "uuid": "0a0491a0-fe48-4811-8ea0-a1d29988a792"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0102 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 1.7145
+                            },
+                            "uuid": "b8d734e9-f25f-4181-bd4e-388fa6c1c4ac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0103 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 2.2479
+                            },
+                            "uuid": "9123b881-79ee-4531-be63-cde7923bdab5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R70 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.5207
+                            },
+                            "uuid": "7866112d-6f71-4598-98c7-45d5c6f6a4ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R70 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.5207
+                            },
+                            "uuid": "7866112d-6f71-4598-98c7-45d5c6f6a4ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0104 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.6477
+                            },
+                            "uuid": "4fd71ed6-8657-45e0-b86d-fe3ed215b170"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R71 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.0541
+                            },
+                            "uuid": "16ec2e9a-2b41-4066-8239-73f2c4ee9aac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R71 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.0541
+                            },
+                            "uuid": "16ec2e9a-2b41-4066-8239-73f2c4ee9aac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0105 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.1811
+                            },
+                            "uuid": "e1caf5c8-9f40-4a7d-88fd-099ab664c72f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R72 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.6129
+                            },
+                            "uuid": "b147cd1c-22b2-46c0-8b2f-15ce5b033462"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R72 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.6129
+                            },
+                            "uuid": "b147cd1c-22b2-46c0-8b2f-15ce5b033462"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0106 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.7145
+                            },
+                            "uuid": "81606033-4ec1-47ab-864f-0dbda51493a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R73 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 2.1463
+                            },
+                            "uuid": "d370f52b-926c-448a-8f4b-98c12cadee98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R73 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 2.1463
+                            },
+                            "uuid": "d370f52b-926c-448a-8f4b-98c12cadee98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0107 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 2.2479
+                            },
+                            "uuid": "0272094a-3413-4501-949a-35791510c1cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R74 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.3429
+                            },
+                            "uuid": "6526555f-0d0f-4ff6-874f-4bea5b97b32e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R74 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.3429
+                            },
+                            "uuid": "6526555f-0d0f-4ff6-874f-4bea5b97b32e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED6 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4699
+                            },
+                            "uuid": "f1ebb707-81d9-408e-b8e8-42bbc56fb347"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED6 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4699
+                            },
+                            "uuid": "f1ebb707-81d9-408e-b8e8-42bbc56fb347"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0108 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.6477
+                            },
+                            "uuid": "4315c912-cd91-48a2-af1e-28b56c47a290"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R75 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.8763
+                            },
+                            "uuid": "39c1d8cf-77de-4308-aecb-72014efc08a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R75 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.8763
+                            },
+                            "uuid": "39c1d8cf-77de-4308-aecb-72014efc08a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED7 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.0033
+                            },
+                            "uuid": "b66994dd-9f92-41da-a482-28461436a17f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED7 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.0033
+                            },
+                            "uuid": "b66994dd-9f92-41da-a482-28461436a17f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0109 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.1811
+                            },
+                            "uuid": "2ec0b86a-72d8-4827-8092-f3398c0abbb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R76 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.4097
+                            },
+                            "uuid": "ace5f64c-9221-4335-95fb-3c0d4592edf8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R76 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.4097
+                            },
+                            "uuid": "ace5f64c-9221-4335-95fb-3c0d4592edf8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED8 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5367
+                            },
+                            "uuid": "338170dd-d885-41e9-a0f1-e5dec45474e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED8 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5367
+                            },
+                            "uuid": "338170dd-d885-41e9-a0f1-e5dec45474e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0110 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.7145
+                            },
+                            "uuid": "63b7c16a-2cf6-4ad6-b871-647afec0ab75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R77 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.9431
+                            },
+                            "uuid": "272adf6d-174b-474f-bd0b-91a76bce7fc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R77 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.9431
+                            },
+                            "uuid": "272adf6d-174b-474f-bd0b-91a76bce7fc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED9 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 2.0701
+                            },
+                            "uuid": "a71ad059-79ce-4613-af4c-ac5348a20ea6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED9 [comma.ai_11112255_LED-0805]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 2.0701
+                            },
+                            "uuid": "a71ad059-79ce-4613-af4c-ac5348a20ea6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0111 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 2.2479
+                            },
+                            "uuid": "c1a21036-c5d3-45f1-ab32-a106bb14092a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0112 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.6477
+                            },
+                            "uuid": "1445a437-1c14-483a-81be-af1a78687598"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0113 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1811
+                            },
+                            "uuid": "438a15ef-2463-4c4e-a29d-2df4aba0cd93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0114 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.7145
+                            },
+                            "uuid": "876606bf-ae0e-46cf-90f6-a0e94a077dd6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0115 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 2.2479
+                            },
+                            "uuid": "4bf7743b-fa2d-4e73-8d06-b1aa01051bc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.4445
+                            },
+                            "uuid": "f1c73308-37c7-4a9b-a8e0-7bd171f98183"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.4445
+                            },
+                            "uuid": "f1c73308-37c7-4a9b-a8e0-7bd171f98183"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.9779
+                            },
+                            "uuid": "1dcaf98b-f401-4469-af68-ac6921a0ebb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.9779
+                            },
+                            "uuid": "1dcaf98b-f401-4469-af68-ac6921a0ebb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.5113
+                            },
+                            "uuid": "02b314cb-1b84-4b3e-b967-4525ad66fe69"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.5113
+                            },
+                            "uuid": "02b314cb-1b84-4b3e-b967-4525ad66fe69"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 2.0447
+                            },
+                            "uuid": "8c0bd053-3117-4f92-a146-54545c445aad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [comma.ai_11112255_USB-C-FEMALEGCT]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 2.0447
+                            },
+                            "uuid": "8c0bd053-3117-4f92-a146-54545c445aad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0116 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 0.6477
+                            },
+                            "uuid": "93e88e31-2c03-4e47-af89-f51ffc0d2ccf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0117 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.1811
+                            },
+                            "uuid": "392a2d5a-be37-48fc-b1e4-8256515fe126"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0118 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.7145
+                            },
+                            "uuid": "62d0d178-2b7d-4c22-8c0a-6ec3fbc414ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0119 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 2.2479
+                            },
+                            "uuid": "38d1f7b6-0a7e-490d-81ca-d817255e7928"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R78 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.5461
+                            },
+                            "uuid": "ab60a780-d9ac-44e4-aea3-a4a58c1367aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R78 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.5461
+                            },
+                            "uuid": "ab60a780-d9ac-44e4-aea3-a4a58c1367aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0120 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.6477
+                            },
+                            "uuid": "7473c7b4-d553-41da-b44f-e49caa0c7e50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R79 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.0795
+                            },
+                            "uuid": "cf0ee005-badb-43f0-a9f8-93869709d64a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R79 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.0795
+                            },
+                            "uuid": "cf0ee005-badb-43f0-a9f8-93869709d64a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0121 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.1811
+                            },
+                            "uuid": "fc73ab7b-61fa-4294-adee-5fbf65816956"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R80 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.6129
+                            },
+                            "uuid": "3d4ff678-ec2b-4926-b0ca-4c52b3bcf16e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R80 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.6129
+                            },
+                            "uuid": "3d4ff678-ec2b-4926-b0ca-4c52b3bcf16e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0122 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.7145
+                            },
+                            "uuid": "d336be72-09a1-4d7f-ba5d-db03bd83b228"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R81 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 2.1463
+                            },
+                            "uuid": "e1c2d92f-0511-45e6-bba7-4ba1f1480c78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R81 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 2.1463
+                            },
+                            "uuid": "e1c2d92f-0511-45e6-bba7-4ba1f1480c78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0123 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 2.2479
+                            },
+                            "uuid": "30bbea28-5c1a-455b-b139-9189a51ff398"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0124 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.2413
+                            },
+                            "uuid": "cc7f4c24-d9af-4a4b-b488-ad02a5d9c289"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0125 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.7747
+                            },
+                            "uuid": "63c96fe0-0f84-49f3-9f9a-70b3567cb850"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0126 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.3081
+                            },
+                            "uuid": "d92fc4c7-d41e-4e2b-9440-1d8b5c5af62a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0127 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.8415
+                            },
+                            "uuid": "5c3775e4-0a3e-4224-903b-292b3a5cbafd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED10 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.2413
+                            },
+                            "uuid": "77403ac5-88f9-495f-8a11-e372010194f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED10 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.2413
+                            },
+                            "uuid": "77403ac5-88f9-495f-8a11-e372010194f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.4699
+                            },
+                            "uuid": "032a1200-0fbb-4546-b47d-ba8f14be0c32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.4699
+                            },
+                            "uuid": "032a1200-0fbb-4546-b47d-ba8f14be0c32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED11 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.7747
+                            },
+                            "uuid": "475c4316-83aa-4296-b1bd-428120040067"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED11 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.7747
+                            },
+                            "uuid": "475c4316-83aa-4296-b1bd-428120040067"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.0033
+                            },
+                            "uuid": "de8e3a91-eb8e-423c-9657-2e5cc92914dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.0033
+                            },
+                            "uuid": "de8e3a91-eb8e-423c-9657-2e5cc92914dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED12 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.3081
+                            },
+                            "uuid": "b96f387c-57b1-4ca0-9bb6-a21986a7bbd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED12 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.3081
+                            },
+                            "uuid": "b96f387c-57b1-4ca0-9bb6-a21986a7bbd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q4 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.5367
+                            },
+                            "uuid": "fbfbb0aa-ab3d-47cc-a093-f2ed63831e40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q4 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.5367
+                            },
+                            "uuid": "fbfbb0aa-ab3d-47cc-a093-f2ed63831e40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED13 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.8415
+                            },
+                            "uuid": "fd3113e5-bbb3-459c-a156-6f9f8a2074b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED13 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.8415
+                            },
+                            "uuid": "fd3113e5-bbb3-459c-a156-6f9f8a2074b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 2.0701
+                            },
+                            "uuid": "bbfec5a0-de8c-4b41-9bb8-88959c45afc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 2.0701
+                            },
+                            "uuid": "bbfec5a0-de8c-4b41-9bb8-88959c45afc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0128 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.6477
+                            },
+                            "uuid": "974641ce-feb7-436c-89f2-06abcdb6490e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0129 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.1811
+                            },
+                            "uuid": "63e812f0-14d9-4b14-a28f-cb92e4694d06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0130 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.7145
+                            },
+                            "uuid": "d13b40b9-b492-458e-997a-b6306450adc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0131 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 2.2479
+                            },
+                            "uuid": "72ec2995-4bfa-41b4-afe2-9fb7d754665b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R82 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.2159
+                            },
+                            "uuid": "a3cbc407-03b2-466c-a00a-7126a25cff18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R82 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.2159
+                            },
+                            "uuid": "a3cbc407-03b2-466c-a00a-7126a25cff18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R83 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.2667
+                            },
+                            "uuid": "fb4a78ea-2ec1-44b2-923c-b9d075d4a9a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R83 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.2667
+                            },
+                            "uuid": "fb4a78ea-2ec1-44b2-923c-b9d075d4a9a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R84 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.7493
+                            },
+                            "uuid": "66bf6dfa-ea06-42c7-9509-fc80727f402f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R84 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.7493
+                            },
+                            "uuid": "66bf6dfa-ea06-42c7-9509-fc80727f402f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R85 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.8001
+                            },
+                            "uuid": "f21ac0a8-98e0-47be-967f-c36d9e68f37e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R85 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 0.8001
+                            },
+                            "uuid": "f21ac0a8-98e0-47be-967f-c36d9e68f37e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R86 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.2827
+                            },
+                            "uuid": "eb420d3c-7fad-481c-bf13-d0602fc05289"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R86 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.2827
+                            },
+                            "uuid": "eb420d3c-7fad-481c-bf13-d0602fc05289"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R87 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.3335
+                            },
+                            "uuid": "b82adcd4-fa8c-4d44-bc35-b34ad586f699"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R87 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.3335
+                            },
+                            "uuid": "b82adcd4-fa8c-4d44-bc35-b34ad586f699"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R88 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.8161
+                            },
+                            "uuid": "93c167d3-5f32-4ab9-b95e-a12e56083071"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R88 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.8161
+                            },
+                            "uuid": "93c167d3-5f32-4ab9-b95e-a12e56083071"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R89 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.8669
+                            },
+                            "uuid": "5dcb0534-03b2-45e6-9629-e5231ef9e060"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R89 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4003,
+                                "y": 1.8669
+                            },
+                            "uuid": "5dcb0534-03b2-45e6-9629-e5231ef9e060"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R90 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.3429
+                            },
+                            "uuid": "c98eca24-5173-47d8-ab47-6bf9d2dd78d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R90 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.3429
+                            },
+                            "uuid": "c98eca24-5173-47d8-ab47-6bf9d2dd78d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R91 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.3937
+                            },
+                            "uuid": "da7256b5-da12-4e91-bd4d-563689041106"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R91 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.3937
+                            },
+                            "uuid": "da7256b5-da12-4e91-bd4d-563689041106"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R92 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.8763
+                            },
+                            "uuid": "fef6ae5f-ecf0-4fb4-b724-a25d6a0e040a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R92 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.8763
+                            },
+                            "uuid": "fef6ae5f-ecf0-4fb4-b724-a25d6a0e040a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R93 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9271
+                            },
+                            "uuid": "03bd7d81-4c56-4ff7-9fb0-a7d156931b05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R93 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9271
+                            },
+                            "uuid": "03bd7d81-4c56-4ff7-9fb0-a7d156931b05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R94 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.4097
+                            },
+                            "uuid": "83255f9d-99f1-41ac-b621-1bdb4eb712f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R94 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.4097
+                            },
+                            "uuid": "83255f9d-99f1-41ac-b621-1bdb4eb712f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R95 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.4605
+                            },
+                            "uuid": "94ce5cd3-e038-448d-ada7-0ea848c1a834"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R95 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.4605
+                            },
+                            "uuid": "94ce5cd3-e038-448d-ada7-0ea848c1a834"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R96 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.9431
+                            },
+                            "uuid": "14872de7-22dd-4d20-953e-e66264073b29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R96 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.9431
+                            },
+                            "uuid": "14872de7-22dd-4d20-953e-e66264073b29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R97 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.9939
+                            },
+                            "uuid": "77b1f17f-b64f-444f-9b03-8c620d3b107d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R97 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.9939
+                            },
+                            "uuid": "77b1f17f-b64f-444f-9b03-8c620d3b107d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R98 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.5461
+                            },
+                            "uuid": "4d4dba3d-7c86-4b9b-883d-15efe22e53d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R98 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.5461
+                            },
+                            "uuid": "4d4dba3d-7c86-4b9b-883d-15efe22e53d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0132 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.6477
+                            },
+                            "uuid": "562d6e9b-ed01-4005-824b-c6aa2ee21778"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R99 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.0795
+                            },
+                            "uuid": "1f563eb7-5577-4d57-bbe2-8e165df4b449"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R99 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.0795
+                            },
+                            "uuid": "1f563eb7-5577-4d57-bbe2-8e165df4b449"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0133 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.1811
+                            },
+                            "uuid": "34d10bda-ce15-4fff-bf4e-b1a98ded6e81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R100 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.6129
+                            },
+                            "uuid": "520c981e-6d49-450e-82b8-cfa35139cd77"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R100 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.6129
+                            },
+                            "uuid": "520c981e-6d49-450e-82b8-cfa35139cd77"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0134 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.7145
+                            },
+                            "uuid": "4c02e975-d78c-48cc-b776-e5e418dfafcf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R101 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 2.1463
+                            },
+                            "uuid": "43569406-17ab-44ce-9405-1c0b7bfc7634"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R101 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 2.1463
+                            },
+                            "uuid": "43569406-17ab-44ce-9405-1c0b7bfc7634"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0135 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 2.2479
+                            },
+                            "uuid": "93f5a4ca-7771-42cb-85b6-cb37a0dfe27e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R102 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.5461
+                            },
+                            "uuid": "89ccbd0e-940d-48f3-94e5-e0e8cfd1070b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R102 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.5461
+                            },
+                            "uuid": "89ccbd0e-940d-48f3-94e5-e0e8cfd1070b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0136 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.6477
+                            },
+                            "uuid": "0577be6c-b9ae-4686-9d8c-e5e0873da596"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R103 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.0795
+                            },
+                            "uuid": "7c4165db-133c-436f-a155-fe74d911507e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R103 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.0795
+                            },
+                            "uuid": "7c4165db-133c-436f-a155-fe74d911507e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0137 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.1811
+                            },
+                            "uuid": "a9695af4-45de-4280-b828-d38dd244146c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R104 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.6129
+                            },
+                            "uuid": "d435943c-4693-4cee-8c98-de5197f643a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R104 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.6129
+                            },
+                            "uuid": "d435943c-4693-4cee-8c98-de5197f643a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0138 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.7145
+                            },
+                            "uuid": "9c0005ae-3f55-43bb-a311-ce3d5df96cfb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R105 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 2.1463
+                            },
+                            "uuid": "99c3bb60-60b4-42b6-bd2b-afd4dec80bd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R105 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 2.1463
+                            },
+                            "uuid": "99c3bb60-60b4-42b6-bd2b-afd4dec80bd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0139 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 2.2479
+                            },
+                            "uuid": "b665a182-a5f2-470f-9692-9dc6a881bc46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0140 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 0.2413
+                            },
+                            "uuid": "6ce4c131-4a27-4e9f-b61e-8d70cdb81cc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0141 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 0.7747
+                            },
+                            "uuid": "5be60c0b-b8ff-4897-b147-2e7bee46b4ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0142 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 1.3081
+                            },
+                            "uuid": "0c266017-3f26-4f3d-b3ff-b0b153c1c838"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0143 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 1.8415
+                            },
+                            "uuid": "f5785cc3-abfe-42d2-b070-86d40f71bc47"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED14 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.2413
+                            },
+                            "uuid": "29c28c0c-9cfb-4712-afb2-896471194b95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED14 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.2413
+                            },
+                            "uuid": "29c28c0c-9cfb-4712-afb2-896471194b95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.4699
+                            },
+                            "uuid": "5b3308ea-a61e-4050-ba31-5fc8c8bc3a6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.4699
+                            },
+                            "uuid": "5b3308ea-a61e-4050-ba31-5fc8c8bc3a6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED15 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.7747
+                            },
+                            "uuid": "2f2b6def-71be-4dd2-badd-3745089a7d3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED15 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 0.7747
+                            },
+                            "uuid": "2f2b6def-71be-4dd2-badd-3745089a7d3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q7 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.0033
+                            },
+                            "uuid": "30559875-79d5-4d4b-b8ab-d0873d67c1e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q7 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.0033
+                            },
+                            "uuid": "30559875-79d5-4d4b-b8ab-d0873d67c1e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED16 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.3081
+                            },
+                            "uuid": "a04f4626-1ca4-4c4e-b088-5d33fc1297a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED16 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.3081
+                            },
+                            "uuid": "a04f4626-1ca4-4c4e-b088-5d33fc1297a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q8 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.5367
+                            },
+                            "uuid": "6471ed8b-5b55-44b3-83de-b21eca66f91c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q8 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.5367
+                            },
+                            "uuid": "6471ed8b-5b55-44b3-83de-b21eca66f91c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED17 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.8415
+                            },
+                            "uuid": "cf12d044-3ddc-4bd9-845b-168e69b2f801"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol LED17 [comma.ai_11112255_LED-CC-GREEN-RED...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 1.8415
+                            },
+                            "uuid": "cf12d044-3ddc-4bd9-845b-168e69b2f801"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q9 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 2.0701
+                            },
+                            "uuid": "1d9a5152-879f-4ca9-85ee-39a9c090dcde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol Q9 [comma.ai_11112255_NFET-DUAL-COMMON...]",
+                            "pos": {
+                                "x": 3.0734,
+                                "y": 2.0701
+                            },
+                            "uuid": "1d9a5152-879f-4ca9-85ee-39a9c090dcde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0144 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 0.6477
+                            },
+                            "uuid": "98a619a7-c2c9-4ba2-847d-976fb755e565"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0145 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 1.1811
+                            },
+                            "uuid": "d3533496-85a9-4b9d-b854-6b8bd4decd04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0146 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 1.7145
+                            },
+                            "uuid": "cb24724f-5af1-4239-bc3a-4f30b6dc312b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0147 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 2.2479
+                            },
+                            "uuid": "9cbe4ec6-20cc-48d7-a034-f0a1d55ab285"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R106 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.2159
+                            },
+                            "uuid": "5d94cc32-8e1a-41b0-a7d8-5dd9538f65c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R106 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.2159
+                            },
+                            "uuid": "5d94cc32-8e1a-41b0-a7d8-5dd9538f65c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R107 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.2667
+                            },
+                            "uuid": "c2050acc-28c6-4e8d-89d3-6f274aad1caf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R107 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.2667
+                            },
+                            "uuid": "c2050acc-28c6-4e8d-89d3-6f274aad1caf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R108 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.7493
+                            },
+                            "uuid": "eb557264-3bd1-4e5b-8021-f7aeb73bc039"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R108 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.7493
+                            },
+                            "uuid": "eb557264-3bd1-4e5b-8021-f7aeb73bc039"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R109 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.8001
+                            },
+                            "uuid": "47e2fd29-495e-460e-85af-66471ef4794c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R109 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 0.8001
+                            },
+                            "uuid": "47e2fd29-495e-460e-85af-66471ef4794c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R110 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.2827
+                            },
+                            "uuid": "3b253b19-4084-44a6-80ff-931e693a2f26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R110 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.2827
+                            },
+                            "uuid": "3b253b19-4084-44a6-80ff-931e693a2f26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R111 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.3335
+                            },
+                            "uuid": "662b6e12-ac45-429f-b46e-855359ea78f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R111 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.3335
+                            },
+                            "uuid": "662b6e12-ac45-429f-b46e-855359ea78f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R112 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.8161
+                            },
+                            "uuid": "4c425d2e-aa7a-4f67-b7e7-c85ce4e90d95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R112 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.8161
+                            },
+                            "uuid": "4c425d2e-aa7a-4f67-b7e7-c85ce4e90d95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R113 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.8669
+                            },
+                            "uuid": "875abac6-1861-40fc-8f53-a7c376683d80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R113 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2258,
+                                "y": 1.8669
+                            },
+                            "uuid": "875abac6-1861-40fc-8f53-a7c376683d80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R114 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3429
+                            },
+                            "uuid": "4d57fbc4-1335-4383-9897-b48ad8a6bc36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R114 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3429
+                            },
+                            "uuid": "4d57fbc4-1335-4383-9897-b48ad8a6bc36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R115 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3937
+                            },
+                            "uuid": "484848c8-3ac5-4828-b5bc-98bc94092556"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R115 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3937
+                            },
+                            "uuid": "484848c8-3ac5-4828-b5bc-98bc94092556"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R116 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.8763
+                            },
+                            "uuid": "36268ead-7b7f-4dfd-a4d4-c923b31fd1f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R116 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.8763
+                            },
+                            "uuid": "36268ead-7b7f-4dfd-a4d4-c923b31fd1f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R117 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.9271
+                            },
+                            "uuid": "7c03e56f-c070-49ae-8777-2bc68b15172f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R117 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.9271
+                            },
+                            "uuid": "7c03e56f-c070-49ae-8777-2bc68b15172f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R118 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.4097
+                            },
+                            "uuid": "f9a474d6-883b-4d0c-bbc1-b7f5548e30d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R118 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.4097
+                            },
+                            "uuid": "f9a474d6-883b-4d0c-bbc1-b7f5548e30d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R119 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.4605
+                            },
+                            "uuid": "e9162cea-1a6a-4a51-a492-c7958a04a698"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R119 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.4605
+                            },
+                            "uuid": "e9162cea-1a6a-4a51-a492-c7958a04a698"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R120 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.9431
+                            },
+                            "uuid": "800295ae-d1af-413a-938f-d0f6dd72a9ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R120 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.9431
+                            },
+                            "uuid": "800295ae-d1af-413a-938f-d0f6dd72a9ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R121 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.9939
+                            },
+                            "uuid": "eb6a6c42-a7e5-4f49-ae18-6ca982cda05c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R121 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.9939
+                            },
+                            "uuid": "eb6a6c42-a7e5-4f49-ae18-6ca982cda05c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R122 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 0.5461
+                            },
+                            "uuid": "8e7ad7cd-647c-45c6-9b67-a32cb10ea430"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R122 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 0.5461
+                            },
+                            "uuid": "8e7ad7cd-647c-45c6-9b67-a32cb10ea430"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0148 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 0.6477
+                            },
+                            "uuid": "d8397ea9-7473-4e6b-ae05-63b239dcc69d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R123 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.0795
+                            },
+                            "uuid": "3fdbdfd5-069f-4d3c-88f6-0859def9e73a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R123 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.0795
+                            },
+                            "uuid": "3fdbdfd5-069f-4d3c-88f6-0859def9e73a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0149 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.1811
+                            },
+                            "uuid": "cd05a5ad-92a9-4a63-bc8c-f3eafe5fed08"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R124 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.6129
+                            },
+                            "uuid": "70ddd9bb-1239-4e72-872d-a7f4bef9bc3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R124 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.6129
+                            },
+                            "uuid": "70ddd9bb-1239-4e72-872d-a7f4bef9bc3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0150 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 1.7145
+                            },
+                            "uuid": "b04f5393-457c-47fa-bcba-98c86e48a8d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R125 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 2.1463
+                            },
+                            "uuid": "82546703-e97b-43a1-ab23-26f23822b58a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol R125 [comma.ai_11112255_R0402]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 2.1463
+                            },
+                            "uuid": "82546703-e97b-43a1-ab23-26f23822b58a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'pcbgolf'",
+                    "items": [
+                        {
+                            "description": "Symbol #GND0151 [comma.ai_11112255_GND]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 2.2479
+                            },
+                            "uuid": "8647d012-d768-485b-b28b-7ceb1b6cbe17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "pcbgolf_5.kicad_sch"
+}

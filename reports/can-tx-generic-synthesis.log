@@ -1,0 +1,1177 @@
+
+-- Running command `read_verilog -sv outputs/comma-engineering/can-core/rtl/can_tx.sv; synth -top can_tx -noabc; check -assert; stat; write_json outputs/comma-engineering/reports/can-tx-generic.json' --
+
+1. Executing Verilog-2005 frontend: outputs/comma-engineering/can-core/rtl/can_tx.sv
+Parsing SystemVerilog input from `outputs/comma-engineering/can-core/rtl/can_tx.sv' to AST representation.
+Generating RTLIL representation for module `\can_tx'.
+Successfully finished Verilog frontend.
+
+2. Executing SYNTH pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1.1. Analyzing design hierarchy..
+Top module:  \can_tx
+
+2.1.2. Analyzing design hierarchy..
+Top module:  \can_tx
+Removed 0 unused modules.
+
+2.2. Executing PROC pass (convert processes to netlists).
+
+2.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 13 switch rules as full_case in process $proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28 in module can_tx.
+Marked 7 switch rules as full_case in process $proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:32$8 in module can_tx.
+Removed a total of 0 dead cases.
+
+2.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 3 redundant assignments.
+Promoted 4 assignments to connections.
+
+2.2.4. Executing PROC_INIT pass (extract init attributes).
+
+2.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~24 debug messages>
+
+2.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+     1/42: $8\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$77
+     2/42: $8\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$79
+     3/42: $8\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$78
+     4/42: $7\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$70
+     5/42: $7\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$69
+     6/42: $7\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$68
+     7/42: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$67
+     8/42: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$66
+     9/42: $6\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$65
+    10/42: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$61
+    11/42: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$60
+    12/42: $5\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$59
+    13/42: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$56
+    14/42: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$55
+    15/42: $4\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$54
+    16/42: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$45
+    17/42: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$44
+    18/42: $3\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$43
+    19/42: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$38
+    20/42: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$37
+    21/42: $2\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$36
+    22/42: $0\tx_error[0:0]
+    23/42: $0\arbitration_lost[0:0]
+    24/42: $0\done[0:0]
+    25/42: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b[0:0]$34
+    26/42: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c[14:0]$33
+    27/42: $1\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result[14:0]$32
+    28/42: $0\crc_reg[14:0]
+    29/42: $0\pending_sample[0:0]
+    30/42: $0\sent_stuff[0:0]
+    31/42: $0\last_bit[0:0]
+    32/42: $0\tail_count[3:0]
+    33/42: $0\run_length[3:0]
+    34/42: $0\crc_pos[4:0]
+    35/42: $0\pos[6:0]
+    36/42: $0\data_latch[63:0]
+    37/42: $0\dlc_latch[3:0]
+    38/42: $0\rtr_latch[0:0]
+    39/42: $0\id_latch[10:0]
+    40/42: $0\state[3:0]
+    41/42: $0\error_code[2:0]
+    42/42: $0\tx_bit[0:0]
+Creating decoders for process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:32$8'.
+     1/7: $7\next_bit[0:0]
+     2/7: $6\next_bit[0:0]
+     3/7: $5\next_bit[0:0]
+     4/7: $4\next_bit[0:0]
+     5/7: $3\next_bit[0:0]
+     6/7: $2\next_bit[0:0]
+     7/7: $1\next_bit[0:0]
+
+2.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\can_tx.\next_bit' from process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:32$8'.
+
+2.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\can_tx.\tx_bit' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$912' with positive edge clock.
+Creating register for signal `\can_tx.\done' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$913' with positive edge clock.
+Creating register for signal `\can_tx.\arbitration_lost' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$914' with positive edge clock.
+Creating register for signal `\can_tx.\tx_error' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$915' with positive edge clock.
+Creating register for signal `\can_tx.\error_code' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$916' with positive edge clock.
+Creating register for signal `\can_tx.\state' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$917' with positive edge clock.
+Creating register for signal `\can_tx.\id_latch' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$918' with positive edge clock.
+Creating register for signal `\can_tx.\rtr_latch' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$919' with positive edge clock.
+Creating register for signal `\can_tx.\dlc_latch' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$920' with positive edge clock.
+Creating register for signal `\can_tx.\data_latch' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$921' with positive edge clock.
+Creating register for signal `\can_tx.\pos' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$922' with positive edge clock.
+Creating register for signal `\can_tx.\crc_pos' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$923' with positive edge clock.
+Creating register for signal `\can_tx.\run_length' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$924' with positive edge clock.
+Creating register for signal `\can_tx.\tail_count' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$925' with positive edge clock.
+Creating register for signal `\can_tx.\last_bit' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$926' with positive edge clock.
+Creating register for signal `\can_tx.\sent_stuff' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$927' with positive edge clock.
+Creating register for signal `\can_tx.\pending_sample' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$928' with positive edge clock.
+Creating register for signal `\can_tx.\crc_reg' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$929' with positive edge clock.
+Creating register for signal `\can_tx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.$result' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$930' with positive edge clock.
+Creating register for signal `\can_tx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.c' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$931' with positive edge clock.
+Creating register for signal `\can_tx.\crc_next$func$outputs/comma-engineering/can-core/rtl/can_tx.sv:88$1.b' using process `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+  created $dff cell `$procdff$932' with positive edge clock.
+
+2.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 17 empty switches in `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+Removing empty process `can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:48$28'.
+Found and cleaned up 7 empty switches in `\can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:32$8'.
+Removing empty process `can_tx.$proc$outputs/comma-engineering/can-core/rtl/can_tx.sv:32$8'.
+Cleaned up 24 empty switches.
+
+2.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~4 debug messages>
+
+2.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.4. Executing CHECK pass (checking for obvious problems).
+Checking module can_tx...
+Found and reported 0 problems.
+
+2.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 114 unused cells and 415 unused wires.
+<suppressed ~117 debug messages>
+
+2.6. Executing OPT pass (performing simple optimizations).
+
+2.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 259 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 235 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 233 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~78 debug messages>
+Removed a total of 26 cells.
+
+2.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 1/2 on $mux $procmux$849.
+    dead port 1/2 on $mux $procmux$852.
+    dead port 1/2 on $mux $procmux$855.
+    dead port 1/2 on $mux $procmux$858.
+    dead port 2/2 on $mux $procmux$860.
+    dead port 1/2 on $mux $procmux$868.
+    dead port 1/2 on $mux $procmux$871.
+    dead port 1/2 on $mux $procmux$874.
+    dead port 2/2 on $mux $procmux$876.
+    dead port 1/2 on $mux $procmux$884.
+    dead port 1/2 on $mux $procmux$887.
+    dead port 2/2 on $mux $procmux$889.
+    dead port 1/2 on $mux $procmux$897.
+    dead port 2/2 on $mux $procmux$899.
+    dead port 2/2 on $mux $procmux$906.
+Removed 15 multiplexer ports.
+<suppressed ~173 debug messages>
+
+2.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 218 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 41 unused wires.
+<suppressed ~1 debug messages>
+
+2.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.6.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~158 debug messages>
+
+2.6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.6.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 218 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.6.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.6.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.6.16. Finished fast OPT passes. (There is nothing left to do.)
+
+2.7. Executing FSM pass (extract and optimize FSM).
+
+2.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+Found FSM state register can_tx.state.
+Not marking can_tx.error_code as FSM state register:
+    Register is connected to module port.
+    Users of register don't seem to benefit from recoding.
+
+2.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+Extracting FSM `\state' from module `\can_tx'.
+  found $dff cell for state register: $procdff$917
+  root of input selection tree: $0\state[3:0]
+  found reset state: 4'0000 (guessed from mux tree)
+  found ctrl input: \rst
+  found ctrl input: \ready
+  found ctrl input: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:71$42_Y
+  found ctrl input: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$53_Y
+  found ctrl input: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$58_Y
+  found ctrl input: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$64_Y
+  found ctrl input: \sent_stuff
+  found ctrl input: $procmux$587_CMP
+  found ctrl input: $procmux$474_CMP
+  found ctrl input: $procmux$592_CMP
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$57_Y
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$5_Y
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$3_Y
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$2_Y
+  found state code: 4'0000
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$97_Y
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:97$95_Y
+  found state code: 4'0111
+  found state code: 4'0110
+  found state code: 4'0101
+  found state code: 4'0100
+  found ctrl input: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93_Y
+  found state code: 4'0011
+  found ctrl input: $logic_or$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$91_Y
+  found state code: 4'0010
+  found ctrl input: \start
+  found ctrl input: $gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39_Y
+  found state code: 4'0001
+  found ctrl output: \ready
+  found ctrl output: $ne$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$62_Y
+  found ctrl output: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$2_Y
+  found ctrl output: $procmux$587_CMP
+  found ctrl output: $procmux$474_CMP
+  found ctrl output: $procmux$592_CMP
+  found ctrl output: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$3_Y
+  found ctrl output: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$57_Y
+  found ctrl output: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$5_Y
+  ctrl inputs: { $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$97_Y $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:97$95_Y $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93_Y $logic_or$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$91_Y $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$64_Y $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$58_Y $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$53_Y $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:71$42_Y $gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39_Y \sent_stuff \start \rst }
+  ctrl outputs: { $procmux$592_CMP $procmux$587_CMP $procmux$474_CMP $ne$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$62_Y $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$57_Y $0\state[3:0] $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$5_Y $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$3_Y $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$2_Y \ready }
+  transition:     4'0000 12'----------00 ->     4'0000 13'0001000000001
+  transition:     4'0000 12'--------0-10 ->     4'0001 13'0001000010001
+  transition:     4'0000 12'--------1-10 ->     4'0000 13'0001000000001
+  transition:     4'0000 12'-----------1 ->     4'0000 13'0001000000001
+  transition:     4'0100 12'-------0---0 ->     4'0100 13'0000101000000
+  transition:     4'0100 12'----0001-0-0 ->     4'0101 13'0000101010000
+  transition:     4'0100 12'----0001-1-0 ->     4'0100 13'0000101000000
+  transition:     4'0100 12'----1001---0 ->     4'0000 13'0000100000000
+  transition:     4'0100 12'-----101---0 ->     4'0000 13'0000100000000
+  transition:     4'0100 12'------11---0 ->     4'0000 13'0000100000000
+  transition:     4'0100 12'-----------1 ->     4'0000 13'0000100000000
+  transition:     4'0010 12'-------0---0 ->     4'0010 13'0001000100100
+  transition:     4'0010 12'--0-0001-0-0 ->     4'0010 13'0001000100100
+  transition:     4'0010 12'--1-0001-0-0 ->     4'0011 13'0001000110100
+  transition:     4'0010 12'----0001-1-0 ->     4'0010 13'0001000100100
+  transition:     4'0010 12'----1001---0 ->     4'0000 13'0001000000100
+  transition:     4'0010 12'-----101---0 ->     4'0000 13'0001000000100
+  transition:     4'0010 12'------11---0 ->     4'0000 13'0001000000100
+  transition:     4'0010 12'-----------1 ->     4'0000 13'0001000000100
+  transition:     4'0110 12'-------0---0 ->     4'0110 13'0011001100000
+  transition:     4'0110 12'-0--0001-0-0 ->     4'0110 13'0011001100000
+  transition:     4'0110 12'-1--0001-0-0 ->     4'0111 13'0011001110000
+  transition:     4'0110 12'----0001-1-0 ->     4'0110 13'0011001100000
+  transition:     4'0110 12'----1001---0 ->     4'0000 13'0011000000000
+  transition:     4'0110 12'-----101---0 ->     4'0000 13'0011000000000
+  transition:     4'0110 12'------11---0 ->     4'0000 13'0011000000000
+  transition:     4'0110 12'-----------1 ->     4'0000 13'0011000000000
+  transition:     4'0001 12'-------0---0 ->     4'0001 13'0001000010010
+  transition:     4'0001 12'---00001-0-0 ->     4'0001 13'0001000010010
+  transition:     4'0001 12'---10001-0-0 ->     4'0010 13'0001000100010
+  transition:     4'0001 12'----0001-1-0 ->     4'0001 13'0001000010010
+  transition:     4'0001 12'----1001---0 ->     4'0000 13'0001000000010
+  transition:     4'0001 12'-----101---0 ->     4'0000 13'0001000000010
+  transition:     4'0001 12'------11---0 ->     4'0000 13'0001000000010
+  transition:     4'0001 12'-----------1 ->     4'0000 13'0001000000010
+  transition:     4'0101 12'-------0---0 ->     4'0101 13'1001001010000
+  transition:     4'0101 12'----0001-0-0 ->     4'0110 13'1001001100000
+  transition:     4'0101 12'----0001-1-0 ->     4'0101 13'1001001010000
+  transition:     4'0101 12'----1001---0 ->     4'0000 13'1001000000000
+  transition:     4'0101 12'-----101---0 ->     4'0000 13'1001000000000
+  transition:     4'0101 12'------11---0 ->     4'0000 13'1001000000000
+  transition:     4'0101 12'-----------1 ->     4'0000 13'1001000000000
+  transition:     4'0011 12'-------0---0 ->     4'0011 13'0001000111000
+  transition:     4'0011 12'----0001-0-0 ->     4'0100 13'0001001001000
+  transition:     4'0011 12'----0001-1-0 ->     4'0011 13'0001000111000
+  transition:     4'0011 12'----1001---0 ->     4'0000 13'0001000001000
+  transition:     4'0011 12'-----101---0 ->     4'0000 13'0001000001000
+  transition:     4'0011 12'------11---0 ->     4'0000 13'0001000001000
+  transition:     4'0011 12'-----------1 ->     4'0000 13'0001000001000
+  transition:     4'0111 12'-------0---0 ->     4'0111 13'0101001110000
+  transition:     4'0111 12'0---0001-0-0 ->     4'0111 13'0101001110000
+  transition:     4'0111 12'1---0001-0-0 ->     4'0000 13'0101000000000
+  transition:     4'0111 12'----0001-1-0 ->     4'0111 13'0101001110000
+  transition:     4'0111 12'----1001---0 ->     4'0000 13'0101000000000
+  transition:     4'0111 12'-----101---0 ->     4'0000 13'0101000000000
+  transition:     4'0111 12'------11---0 ->     4'0000 13'0101000000000
+  transition:     4'0111 12'-----------1 ->     4'0000 13'0101000000000
+
+2.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+Optimizing FSM `$fsm$\state$933' from module `\can_tx'.
+
+2.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 24 unused cells and 24 unused wires.
+<suppressed ~25 debug messages>
+
+2.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+Optimizing FSM `$fsm$\state$933' from module `\can_tx'.
+  Removing unused output signal $0\state[3:0] [0].
+  Removing unused output signal $0\state[3:0] [1].
+  Removing unused output signal $0\state[3:0] [2].
+  Removing unused output signal $0\state[3:0] [3].
+
+2.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+Recoding FSM `$fsm$\state$933' from module `\can_tx' using `auto' encoding:
+  mapping auto encoding to `one-hot` for this FSM.
+  0000 -> -------1
+  0100 -> ------1-
+  0010 -> -----1--
+  0110 -> ----1---
+  0001 -> ---1----
+  0101 -> --1-----
+  0011 -> -1------
+  0111 -> 1-------
+
+2.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+FSM `$fsm$\state$933' from module `can_tx':
+-------------------------------------
+
+  Information on FSM $fsm$\state$933 (\state):
+
+  Number of input signals:   12
+  Number of output signals:   9
+  Number of state bits:       8
+
+  Input signals:
+    0: \rst
+    1: \start
+    2: \sent_stuff
+    3: $gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39_Y
+    4: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:71$42_Y
+    5: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$53_Y
+    6: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$58_Y
+    7: $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$64_Y
+    8: $logic_or$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$91_Y
+    9: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93_Y
+   10: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:97$95_Y
+   11: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$97_Y
+
+  Output signals:
+    0: \ready
+    1: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$2_Y
+    2: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$3_Y
+    3: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:27$5_Y
+    4: $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:75$57_Y
+    5: $ne$outputs/comma-engineering/can-core/rtl/can_tx.sv:77$62_Y
+    6: $procmux$474_CMP
+    7: $procmux$587_CMP
+    8: $procmux$592_CMP
+
+  State encoding:
+    0: 8'-------1  <RESET STATE>
+    1: 8'------1-
+    2: 8'-----1--
+    3: 8'----1---
+    4: 8'---1----
+    5: 8'--1-----
+    6: 8'-1------
+    7: 8'1-------
+
+  Transition Table (state_in, ctrl_in, state_out, ctrl_out):
+      0:     0 12'----------00   ->     0 9'000100001
+      1:     0 12'--------1-10   ->     0 9'000100001
+      2:     0 12'-----------1   ->     0 9'000100001
+      3:     0 12'--------0-10   ->     4 9'000100001
+      4:     1 12'----1001---0   ->     0 9'000010000
+      5:     1 12'-----101---0   ->     0 9'000010000
+      6:     1 12'------11---0   ->     0 9'000010000
+      7:     1 12'-----------1   ->     0 9'000010000
+      8:     1 12'----0001-1-0   ->     1 9'000010000
+      9:     1 12'-------0---0   ->     1 9'000010000
+     10:     1 12'----0001-0-0   ->     5 9'000010000
+     11:     2 12'----1001---0   ->     0 9'000100100
+     12:     2 12'-----101---0   ->     0 9'000100100
+     13:     2 12'------11---0   ->     0 9'000100100
+     14:     2 12'-----------1   ->     0 9'000100100
+     15:     2 12'--0-0001-0-0   ->     2 9'000100100
+     16:     2 12'----0001-1-0   ->     2 9'000100100
+     17:     2 12'-------0---0   ->     2 9'000100100
+     18:     2 12'--1-0001-0-0   ->     6 9'000100100
+     19:     3 12'----1001---0   ->     0 9'001100000
+     20:     3 12'-----101---0   ->     0 9'001100000
+     21:     3 12'------11---0   ->     0 9'001100000
+     22:     3 12'-----------1   ->     0 9'001100000
+     23:     3 12'-0--0001-0-0   ->     3 9'001100000
+     24:     3 12'----0001-1-0   ->     3 9'001100000
+     25:     3 12'-------0---0   ->     3 9'001100000
+     26:     3 12'-1--0001-0-0   ->     7 9'001100000
+     27:     4 12'----1001---0   ->     0 9'000100010
+     28:     4 12'-----101---0   ->     0 9'000100010
+     29:     4 12'------11---0   ->     0 9'000100010
+     30:     4 12'-----------1   ->     0 9'000100010
+     31:     4 12'---10001-0-0   ->     2 9'000100010
+     32:     4 12'---00001-0-0   ->     4 9'000100010
+     33:     4 12'----0001-1-0   ->     4 9'000100010
+     34:     4 12'-------0---0   ->     4 9'000100010
+     35:     5 12'----1001---0   ->     0 9'100100000
+     36:     5 12'-----101---0   ->     0 9'100100000
+     37:     5 12'------11---0   ->     0 9'100100000
+     38:     5 12'-----------1   ->     0 9'100100000
+     39:     5 12'----0001-0-0   ->     3 9'100100000
+     40:     5 12'----0001-1-0   ->     5 9'100100000
+     41:     5 12'-------0---0   ->     5 9'100100000
+     42:     6 12'----1001---0   ->     0 9'000101000
+     43:     6 12'-----101---0   ->     0 9'000101000
+     44:     6 12'------11---0   ->     0 9'000101000
+     45:     6 12'-----------1   ->     0 9'000101000
+     46:     6 12'----0001-0-0   ->     1 9'000101000
+     47:     6 12'----0001-1-0   ->     6 9'000101000
+     48:     6 12'-------0---0   ->     6 9'000101000
+     49:     7 12'1---0001-0-0   ->     0 9'010100000
+     50:     7 12'----1001---0   ->     0 9'010100000
+     51:     7 12'-----101---0   ->     0 9'010100000
+     52:     7 12'------11---0   ->     0 9'010100000
+     53:     7 12'-----------1   ->     0 9'010100000
+     54:     7 12'0---0001-0-0   ->     7 9'010100000
+     55:     7 12'----0001-1-0   ->     7 9'010100000
+     56:     7 12'-------0---0   ->     7 9'010100000
+
+-------------------------------------
+
+2.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+Mapping FSM `$fsm$\state$933' from module `\can_tx'.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~9 debug messages>
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 269 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 253 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~48 debug messages>
+Removed a total of 16 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~143 debug messages>
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 253 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $procdff$929 ($dff) from module can_tx (D = $procmux$534_Y, Q = \crc_reg, rval = 15'000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1089 ($sdff) from module can_tx (D = $procmux$534_Y, Q = \crc_reg).
+Adding SRST signal on $procdff$928 ($dff) from module can_tx (D = $procmux$545_Y, Q = \pending_sample, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1109 ($sdff) from module can_tx (D = $procmux$542_Y, Q = \pending_sample).
+Adding SRST signal on $procdff$927 ($dff) from module can_tx (D = $procmux$553_Y, Q = \sent_stuff, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1117 ($sdff) from module can_tx (D = $logic_and$outputs/comma-engineering/can-core/rtl/can_tx.sv:46$26_Y, Q = \sent_stuff).
+Adding SRST signal on $procdff$926 ($dff) from module can_tx (D = $procmux$576_Y, Q = \last_bit, rval = 1'1).
+Adding EN signal on $auto$ff.cc:337:slice$1123 ($sdff) from module can_tx (D = $procmux$562_Y, Q = \last_bit).
+Adding SRST signal on $procdff$925 ($dff) from module can_tx (D = $procmux$608_Y, Q = \tail_count, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1137 ($sdff) from module can_tx (D = $procmux$586_Y, Q = \tail_count).
+Adding SRST signal on $procdff$924 ($dff) from module can_tx (D = $procmux$636_Y, Q = \run_length, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1155 ($sdff) from module can_tx (D = $procmux$636_Y, Q = \run_length).
+Adding SRST signal on $procdff$923 ($dff) from module can_tx (D = $procmux$673_Y, Q = \crc_pos, rval = 5'00000).
+Adding EN signal on $auto$ff.cc:337:slice$1173 ($sdff) from module can_tx (D = $procmux$673_Y, Q = \crc_pos).
+Adding SRST signal on $procdff$922 ($dff) from module can_tx (D = $procmux$711_Y, Q = \pos, rval = 7'0000000).
+Adding EN signal on $auto$ff.cc:337:slice$1195 ($sdff) from module can_tx (D = $procmux$711_Y, Q = \pos).
+Adding SRST signal on $procdff$921 ($dff) from module can_tx (D = $procmux$722_Y, Q = \data_latch, rval = 64'0000000000000000000000000000000000000000000000000000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1217 ($sdff) from module can_tx (D = \data, Q = \data_latch).
+Adding SRST signal on $procdff$920 ($dff) from module can_tx (D = $procmux$733_Y, Q = \dlc_latch, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:337:slice$1223 ($sdff) from module can_tx (D = \dlc, Q = \dlc_latch).
+Adding SRST signal on $procdff$919 ($dff) from module can_tx (D = $procmux$744_Y, Q = \rtr_latch, rval = 1'0).
+Adding EN signal on $auto$ff.cc:337:slice$1229 ($sdff) from module can_tx (D = \remote_frame, Q = \rtr_latch).
+Adding SRST signal on $procdff$918 ($dff) from module can_tx (D = $procmux$755_Y, Q = \id_latch, rval = 11'00000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1235 ($sdff) from module can_tx (D = \identifier, Q = \id_latch).
+Adding SRST signal on $procdff$916 ($dff) from module can_tx (D = $procmux$825_Y, Q = \error_code, rval = 3'000).
+Adding EN signal on $auto$ff.cc:337:slice$1241 ($sdff) from module can_tx (D = $procmux$825_Y, Q = \error_code).
+Adding SRST signal on $procdff$915 ($dff) from module can_tx (D = $procmux$450_Y, Q = \tx_error, rval = 1'0).
+Adding SRST signal on $procdff$914 ($dff) from module can_tx (D = $procmux$457_Y, Q = \arbitration_lost, rval = 1'0).
+Adding SRST signal on $procdff$913 ($dff) from module can_tx (D = $procmux$471_Y, Q = \done, rval = 1'0).
+Adding SRST signal on $procdff$912 ($dff) from module can_tx (D = $procmux$835_Y, Q = \tx_bit, rval = 1'1).
+Adding EN signal on $auto$ff.cc:337:slice$1268 ($sdff) from module can_tx (D = $procmux$835_Y, Q = \tx_bit).
+
+2.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 52 unused cells and 79 unused wires.
+<suppressed ~53 debug messages>
+
+2.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~14 debug messages>
+
+2.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~86 debug messages>
+
+2.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.8.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 276 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 241 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 238 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~114 debug messages>
+Removed a total of 38 cells.
+
+2.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 39 unused wires.
+<suppressed ~1 debug messages>
+
+2.8.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.8.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.8.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~88 debug messages>
+
+2.8.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.8.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 238 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.8.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.8.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.8.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.8.23. Finished fast OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 1 bits (of 2) from port B of cell can_tx.$auto$simple.cc:194:make_patterns_logic$1252 ($ne).
+Removed top 3 bits (of 6) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1080 ($eq).
+Removed top 4 bits (of 7) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1076 ($eq).
+Removed top 3 bits (of 6) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1046 ($eq).
+Removed top 4 bits (of 7) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1033 ($eq).
+Removed top 1 bits (of 3) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1029 ($eq).
+Removed top 4 bits (of 7) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$1012 ($eq).
+Removed top 4 bits (of 7) from port B of cell can_tx.$auto$fsm_map.cc:77:implement_pattern_cache$999 ($eq).
+Removed top 28 bits (of 32) from port B of cell can_tx.$le$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$10 ($le).
+Removed top 28 bits (of 32) from port A of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11 ($sub).
+Removed top 24 bits (of 32) from port Y of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11 ($sub).
+Removed top 24 bits (of 32) from port B of cell can_tx.$shiftx$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$12 ($shiftx).
+Removed top 3 bits (of 7) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:38$13 ($eq).
+Removed top 3 bits (of 7) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:39$14 ($eq).
+Removed top 3 bits (of 7) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:39$15 ($eq).
+Removed top 27 bits (of 32) from port B of cell can_tx.$le$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$17 ($le).
+Removed top 27 bits (of 32) from port A of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18 ($sub).
+Removed top 24 bits (of 32) from port Y of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18 ($sub).
+Removed top 24 bits (of 32) from port B of cell can_tx.$shiftx$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$19 ($shiftx).
+Removed top 27 bits (of 32) from port B of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20 ($sub).
+Removed top 24 bits (of 32) from port Y of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20 ($sub).
+Converting cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21 ($sub) from unsigned to signed.
+Removed top 25 bits (of 32) from port A of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21 ($sub).
+Removed top 24 bits (of 32) from port B of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21 ($sub).
+Removed top 23 bits (of 32) from port Y of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21 ($sub).
+Removed top 23 bits (of 32) from port B of cell can_tx.$shiftx$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$22 ($shiftx).
+Removed top 28 bits (of 32) from port A of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23 ($sub).
+Removed top 26 bits (of 32) from port Y of cell can_tx.$sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23 ($sub).
+Removed top 26 bits (of 32) from port B of cell can_tx.$shiftx$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$24 ($shiftx).
+Removed top 28 bits (of 32) from port B of cell can_tx.$gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39 ($gt).
+Removed top 1 bits (of 4) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:69$40 ($eq).
+Removed top 31 bits (of 32) from port B of cell can_tx.$ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$47 ($ge).
+Removed top 28 bits (of 32) from port B of cell can_tx.$le$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$49 ($le).
+Removed top 27 bits (of 32) from port Y of cell can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75 ($add).
+Removed top 28 bits (of 32) from mux cell can_tx.$ternary$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$76 ($mux).
+Removed top 2 bits (of 7) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$83 ($eq).
+Removed top 27 bits (of 32) from port B of cell can_tx.$ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$87 ($ge).
+Removed top 27 bits (of 32) from port A of cell can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88 ($add).
+Removed top 25 bits (of 32) from port B of cell can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88 ($add).
+Removed top 24 bits (of 32) from port Y of cell can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88 ($add).
+Removed top 24 bits (of 32) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$89 ($eq).
+Removed top 1 bits (of 5) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93 ($eq).
+Removed top 1 bits (of 4) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:97$95 ($eq).
+Removed top 2 bits (of 4) from port B of cell can_tx.$eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$97 ($eq).
+Removed top 1 bits (of 5) from port Y of cell can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75 ($add).
+Removed top 24 bits (of 32) from wire can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88_Y.
+Removed top 28 bits (of 32) from wire can_tx.$ternary$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$76_Y.
+Removed top 28 bits (of 32) from wire can_tx.$add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75_Y.
+
+2.10. Executing PEEPOPT pass (run peephole optimizers).
+
+2.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 3 unused wires.
+<suppressed ~1 debug messages>
+
+2.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module can_tx:
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$98 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$94 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:91$92 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88 ($add).
+  creating $macc model for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75 ($add).
+  creating $macc model for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23 ($sub).
+  creating $macc model for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21 ($sub).
+  creating $macc model for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20 ($sub).
+  creating $macc model for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18 ($sub).
+  creating $macc model for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11 ($sub).
+  creating $alu model for $macc $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11.
+  creating $alu model for $macc $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18.
+  creating $alu model for $macc $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20.
+  creating $alu model for $macc $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21.
+  creating $alu model for $macc $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:91$92.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$94.
+  creating $alu model for $macc $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$98.
+  creating $alu model for $ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$87 ($ge): merged with $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20.
+  creating $alu model for $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$49 ($le): new $alu
+  creating $alu model for $ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$47 ($ge): new $alu
+  creating $alu model for $gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39 ($gt): new $alu
+  creating $alu model for $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$17 ($le): merged with $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18.
+  creating $alu model for $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$10 ($le): merged with $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11.
+  creating $alu model for $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93 ($eq): merged with $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23.
+  creating $alu model for $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$83 ($eq): merged with $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18.
+  creating $alu model for $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:38$13 ($eq): merged with $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$49.
+  creating $alu cell for $gt$outputs/comma-engineering/can-core/rtl/can_tx.sv:59$39: $auto$alumacc.cc:578:replace_alu$1278
+  creating $alu cell for $ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$47: $auto$alumacc.cc:578:replace_alu$1289
+  creating $alu cell for $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:73$49, $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:38$13: $auto$alumacc.cc:578:replace_alu$1302
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:100$98: $auto$alumacc.cc:578:replace_alu$1311
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$94: $auto$alumacc.cc:578:replace_alu$1314
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:91$92: $auto$alumacc.cc:578:replace_alu$1317
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$88: $auto$alumacc.cc:578:replace_alu$1320
+  creating $alu cell for $add$outputs/comma-engineering/can-core/rtl/can_tx.sv:83$75: $auto$alumacc.cc:578:replace_alu$1323
+  creating $alu cell for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:43$23, $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:93$93: $auto$alumacc.cc:578:replace_alu$1326
+  creating $alu cell for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$21: $auto$alumacc.cc:578:replace_alu$1331
+  creating $alu cell for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:41$20, $ge$outputs/comma-engineering/can-core/rtl/can_tx.sv:90$87: $auto$alumacc.cc:578:replace_alu$1334
+  creating $alu cell for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$18, $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:40$17, $eq$outputs/comma-engineering/can-core/rtl/can_tx.sv:89$83: $auto$alumacc.cc:578:replace_alu$1347
+  creating $alu cell for $sub$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$11, $le$outputs/comma-engineering/can-core/rtl/can_tx.sv:37$10: $auto$alumacc.cc:578:replace_alu$1360
+  created 13 $alu and 0 $macc cells.
+
+2.13. Executing SHARE pass (SAT-based resource sharing).
+
+2.14. Executing OPT pass (performing simple optimizations).
+
+2.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~7 debug messages>
+
+2.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 259 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~88 debug messages>
+
+2.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 259 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 10 unused wires.
+<suppressed ~1 debug messages>
+
+2.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~88 debug messages>
+
+2.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.14.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 259 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.14.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.14.16. Finished fast OPT passes. (There is nothing left to do.)
+
+2.15. Executing MEMORY pass.
+
+2.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+2.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+2.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+2.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+2.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+2.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+2.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+2.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.17. Executing OPT pass (performing simple optimizations).
+
+2.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~59 debug messages>
+
+2.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 226 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 223 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~9 debug messages>
+Removed a total of 3 cells.
+
+2.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 55 unused wires.
+<suppressed ~1 debug messages>
+
+2.17.5. Finished fast OPT passes.
+
+2.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+2.19. Executing OPT pass (performing simple optimizations).
+
+2.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~2 debug messages>
+
+2.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 223 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 222 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~3 debug messages>
+Removed a total of 1 cells.
+
+2.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+2.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+    Consolidated identical input bits for $mux cell $procmux$812:
+      Old ports: A=3'011, B=3'010, Y=$procmux$812_Y
+      New ports: A=1'1, B=1'0, Y=$procmux$812_Y [0]
+      New connections: $procmux$812_Y [2:1] = 2'01
+    Consolidated identical input bits for $mux cell $ternary$outputs/comma-engineering/can-core/rtl/can_tx.sv:30$81:
+      Old ports: A=15'000000000000000, B=15'100010110011001, Y={ $ternary$outputs/comma-engineering/can-core/rtl/can_tx.sv:30$81_Y [14:1] $auto$opt_expr.cc:206:group_cell_inputs$1401 }
+      New ports: A=1'0, B=1'1, Y=$auto$opt_expr.cc:206:group_cell_inputs$1401
+      New connections: $ternary$outputs/comma-engineering/can-core/rtl/can_tx.sv:30$81_Y [14:1] = { $auto$opt_expr.cc:206:group_cell_inputs$1401 3'000 $auto$opt_expr.cc:206:group_cell_inputs$1401 1'0 $auto$opt_expr.cc:206:group_cell_inputs$1401 $auto$opt_expr.cc:206:group_cell_inputs$1401 2'00 $auto$opt_expr.cc:206:group_cell_inputs$1401 $auto$opt_expr.cc:206:group_cell_inputs$1401 2'00 }
+  Optimizing cells in module \can_tx.
+    Consolidated identical input bits for $mux cell $procmux$825:
+      Old ports: A=$procmux$812_Y, B=3'001, Y=$procmux$825_Y
+      New ports: A={ 1'1 $procmux$812_Y [0] }, B=2'01, Y=$procmux$825_Y [1:0]
+      New connections: $procmux$825_Y [2] = 1'0
+  Optimizing cells in module \can_tx.
+Performed a total of 3 changes.
+
+2.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 222 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.19.6. Executing OPT_SHARE pass.
+
+2.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+Setting constant 0-bit at position 2 on $auto$ff.cc:337:slice$1242 ($sdffe) from module can_tx.
+
+2.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+2.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~5 debug messages>
+
+2.19.10. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.19.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~27 debug messages>
+
+2.19.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.19.13. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 221 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 220 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~3 debug messages>
+Removed a total of 1 cells.
+
+2.19.14. Executing OPT_SHARE pass.
+
+2.19.15. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.19.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 0 unused cells and 4 unused wires.
+<suppressed ~1 debug messages>
+
+2.19.17. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.19.18. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.19.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \can_tx..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~27 debug messages>
+
+2.19.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \can_tx.
+Performed a total of 0 changes.
+
+2.19.21. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 220 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Removed a total of 0 cells.
+
+2.19.22. Executing OPT_SHARE pass.
+
+2.19.23. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.19.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+
+2.19.25. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+
+2.19.26. Finished fast OPT passes. (There is nothing left to do.)
+
+2.20. Executing TECHMAP pass (map to technology primitives).
+
+2.20.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+2.20.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $sdffe.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $reduce_and.
+Using template $paramod$fb7f6c42d84fe8fae89a359df55310f1e494c563\_90_alu for cells of type $alu.
+Using template $paramod$fccaddc94a453f2efefc738dfbe79d456579c31f\_90_alu for cells of type $alu.
+Using template $paramod$a6eb9f709da60bfcdcc2be095c8d87c74de2b7d7\_90_alu for cells of type $alu.
+Using template $paramod$0378bcf51feb17095073981bfad829912c9a6569\_90_alu for cells of type $alu.
+Using template $paramod$653d0dc5a667330298513325d0bd1def0e6c1128\_90_alu for cells of type $alu.
+Using template $paramod$32a7b7b86c07519b7537abc18e96f0331f97914d\_90_alu for cells of type $alu.
+Using template $paramod$bfceb922395790c0ce92e9f9b5b428d4fc72cc30\_90_alu for cells of type $alu.
+Using template $paramod$103b4016182df467cceab67bcf3e18e6361ec0fd\_90_alu for cells of type $alu.
+Using template $paramod$672a140277c71df8314410f22acc08d55222c3c7\_90_alu for cells of type $alu.
+Using template $paramod$eae5c6d909a05153739c7821f34da2cbc0422532\_90_alu for cells of type $alu.
+Using template $paramod$10ed987432f06055e5279101f9ec60a49861b43c\_90_alu for cells of type $alu.
+Using template $paramod$fc972a7a46956c1788f3cb5257b53c8f1df2d0cc\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $sdff.
+Using extmapper simplemap for cells of type $ne.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $dff.
+Using extmapper simplemap for cells of type $logic_or.
+Using template $paramod$constmap:9cbffb3b94813a169e15163a9bd7a0eaf5cb8404$paramod$dd1054b1f60b86c1698e81c775da5bb39ec05dfb\_90_shift_shiftx for cells of type $shiftx.
+Using template $paramod$constmap:e925943922321323bad18ca7d0af4160efc5b8e7$paramod$246b7d80e3afce4e9652ae5d6a67976ceed7cb3c\_90_shift_shiftx for cells of type $shiftx.
+Using template $paramod$constmap:bb91d2ec99235d208ac256955955e9712b20649d$paramod$37ee57025afa1d678cf21efc8a6c8228d9bdd180\_90_shift_shiftx for cells of type $shiftx.
+Using template $paramod$constmap:0fdd1a8097402e7d6dbbea81e7b3fb2e839adab0$paramod$85d63d47fb11dc1ec3295df23eabf5f78e15189a\_90_shift_shiftx for cells of type $shiftx.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $pmux.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000110 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000110 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000001 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000001 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000111 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000111 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000101 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000101 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000100 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000100 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000011 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000011 for cells of type $lcu.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000001000 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000001000 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~2368 debug messages>
+
+2.21. Executing OPT pass (performing simple optimizations).
+
+2.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module can_tx.
+<suppressed ~2662 debug messages>
+
+2.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\can_tx'.
+Computing hashes of 2514 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 2379 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 2347 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+Computing hashes of 2334 cells of `\can_tx'.
+Finding duplicate cells in `\can_tx'.
+<suppressed ~540 debug messages>
+Removed a total of 180 cells.
+
+2.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+2.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \can_tx..
+Removed 1508 unused cells and 861 unused wires.
+<suppressed ~1509 debug messages>
+
+2.21.5. Finished fast OPT passes.
+
+2.22. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `can_tx'. Setting top module to can_tx.
+
+2.22.1. Analyzing design hierarchy..
+Top module:  \can_tx
+
+2.22.2. Analyzing design hierarchy..
+Top module:  \can_tx
+Removed 0 unused modules.
+
+2.23. Printing statistics.
+
+=== can_tx ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      392 wires
+     2967 wire bits
+       31 public wires
+      222 public wire bits
+       16 ports
+       94 port bits
+      826 cells
+      160   $_AND_
+        8   $_DFF_P_
+      248   $_MUX_
+       70   $_NOT_
+      169   $_OR_
+      119   $_SDFFE_PP0P_
+        2   $_SDFFE_PP1P_
+        3   $_SDFF_PP0_
+       47   $_XOR_
+
+2.24. Executing CHECK pass (checking for obvious problems).
+Checking module can_tx...
+Found and reported 0 problems.
+
+3. Executing CHECK pass (checking for obvious problems).
+Checking module can_tx...
+Found and reported 0 problems.
+
+4. Printing statistics.
+
+=== can_tx ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      392 wires
+     2967 wire bits
+       31 public wires
+      222 public wire bits
+       16 ports
+       94 port bits
+      826 cells
+      160   $_AND_
+        8   $_DFF_P_
+      248   $_MUX_
+       70   $_NOT_
+      169   $_OR_
+      119   $_SDFFE_PP0P_
+        2   $_SDFFE_PP1P_
+        3   $_SDFF_PP0_
+       47   $_XOR_
+
+5. Executing JSON backend.

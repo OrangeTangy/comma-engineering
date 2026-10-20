@@ -1,0 +1,9 @@
+{
+  "receive_valid": 777,
+  "crc_end_stuff_cases": 26,
+  "transmit_oracle": 770,
+  "receive_faults_and_recovery": 496,
+  "back_to_back": 100,
+  "reset_every_bit": 127,
+  "seconds": 5.398
+}
