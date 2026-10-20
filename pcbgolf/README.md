@@ -150,3 +150,12 @@ Do not fabricate this branch or combine its tracks with the moved components
 in `critical-trial/`. The session was imported successfully, but the routing
 experiment failed the completion gate. Native and router unrouted-item counts
 use different definitions and must not be treated as interchangeable.
+
+## Score estimates — October 20
+
+`score.py BOARD.kicad_pcb ASSEMBLY.step` reports the bounding-box volume, vias,
+copper layers and the formula total (it needs OCP / cadquery-ocp). See
+[SCORE_ANALYSIS.md](SCORE_ANALYSIS.md): the unrouted critical trial is at least
+70,569 and the four-layer trial at least 80,569. The barrel jack (11.0 mm) and
+vertical OBD-C receptacles (8.8 mm) set the height, so routing alone cannot
+make this layout competitive.
