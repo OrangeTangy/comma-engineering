@@ -159,3 +159,10 @@ copper layers and the formula total (it needs OCP / cadquery-ocp). See
 70,569 and the four-layer trial at least 80,569. The barrel jack (11.0 mm) and
 vertical OBD-C receptacles (8.8 mm) set the height, so routing alone cannot
 make this layout competitive.
+
+## Low-profile redesign — October 26
+
+[GOLF_V2.md](GOLF_V2.md): horizontal OBD-C ports (JAE DX07, as already used for J3),
+a mid-mount PJ-107AH-MSMT-TR jack in a board notch, two layers and two-sided placement.
+Assembly height fell from 14.24 to 9.11 mm. The committed 58 × 56 mm board is partially
+routed (160 vias, 213 unconnected items), so its 48,236 estimate is not a valid score.

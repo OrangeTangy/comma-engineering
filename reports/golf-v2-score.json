@@ -1,0 +1,32 @@
+{
+  "pcb": "golf-v2/pcbgolf.kicad_pcb",
+  "step": "golf-v2-PARTIAL.step",
+  "dimensions_mm": [
+    58.01,
+    57.213,
+    9.11
+  ],
+  "volume_mm3": 30235.5,
+  "copper_layers": 2,
+  "vias": 160,
+  "track_segments": 2471,
+  "score_estimate": 48236,
+  "breakdown": {
+    "volume": 30236,
+    "vias": 8000,
+    "layers": 10000
+  },
+  "tallest_parts_top_z": [
+    7.05,
+    4.97,
+    4.97,
+    4.97,
+    4.97
+  ],
+  "lowest_parts_bottom_z": [
+    -2.06,
+    -1.84,
+    -1.84
+  ],
+  "note": "Lower bound: excludes layer-change through-hole pads; meaningless unless fully routed and DRC-clean."
+}
